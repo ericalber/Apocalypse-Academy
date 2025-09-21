@@ -1,0 +1,241 @@
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0A0A0A;
+  position: relative;
+  padding: 2rem;
+}
+
+.authContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(18, 18, 18, 0.9) 0%, rgba(18, 18, 18, 0.8) 100%);
+}
+
+.authCard {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  background-color: var(--color-background-secondary);
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.authHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.authTitle {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.authSubtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+}
+
+.authForm {
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-text-primary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: var(--color-background);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.formInput:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.2);
+  outline: none;
+}
+
+.formInput::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.formOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.forgotPassword {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.authButton {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.authButton:hover {
+  background-color: #e6c200;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.authDivider {
+  position: relative;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.authDivider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.authDivider span {
+  position: relative;
+  background-color: var(--color-background-secondary);
+  padding: 0 15px;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.socialLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.googleButton {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.googleButton:hover {
+  background-color: #f2f2f2;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.facebookButton {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+.facebookButton:hover {
+  background-color: #344e86;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.authFooter {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.authLink {
+  color: var(--color-primary);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.authLink:hover {
+  text-decoration: underline;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .authCard {
+    padding: 30px;
+  }
+  
+  .authTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .authCard {
+    padding: 20px;
+  }
+  
+  .authTitle {
+    font-size: 1.8rem;
+  }
+  
+  .formOptions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

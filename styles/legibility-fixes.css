@@ -1,0 +1,393 @@
+/* CORREÇÕES DE LEGIBILIDADE - APOCALYPSE ACADEMY */
+
+/* IMPORTAÇÃO DAS FONTES PREMIUM */
+@font-face {
+  font-family: 'Aloevera Display';
+  src: url('/fonts/AloeveraDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aloevera Display';
+  src: url('/fonts/AloeveraDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Clofie Modern Sans - Legibilidade premium */
+@font-face {
+  font-family: 'Clofie';
+  src: url('/fonts/Clofie-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clofie';
+  src: url('/fonts/Clofie-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clofie';
+  src: url('/fonts/Clofie-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Quico Display - Títulos impactantes */
+@font-face {
+  font-family: 'Quico Display';
+  src: url('/fonts/QuicoDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quico Display';
+  src: url('/fonts/QuicoDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quico Display';
+  src: url('/fonts/QuicoDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TÍTULOS DE SEÇÕES - LEGIBILIDADE PREMIUM */
+.section-title-legible {
+  font-family: 'Aloevera Display', 'Bebas Neue', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  letter-spacing: 0.15em !important;
+  line-height: 1.3 !important;
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+  margin-bottom: 2rem !important;
+  text-transform: uppercase !important;
+}
+
+/* TÍTULOS DE SEÇÕES MOBILE */
+@media (max-width: 768px) {
+  .section-title-legible {
+    font-size: 2rem !important;
+    letter-spacing: 0.1em !important;
+    line-height: 1.2 !important;
+  }
+}
+
+/* CORREÇÃO ESPECÍFICA PARA "DOCUMENTÁRIOS EM DESTAQUE" */
+.documentarios-title {
+  font-family: 'Quico Display', 'Clofie', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.8rem !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.3 !important;
+  color: #FFFFFF !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9) !important;
+  margin-bottom: 2rem !important;
+  text-transform: uppercase !important;
+  background: linear-gradient(135deg, #FFFFFF 0%, #E11D2E 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* CORREÇÃO ESPECÍFICA PARA "REVISTAS EM DESTAQUE" */
+.revistas-title {
+  font-family: 'Quico Display', 'Clofie', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.8rem !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.3 !important;
+  color: #FFFFFF !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9) !important;
+  margin-bottom: 2rem !important;
+  text-transform: uppercase !important;
+  background: linear-gradient(135deg, #FFFFFF 0%, #E11D2E 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* CORREÇÃO ESPECÍFICA PARA "CURSOS EM DESTAQUE" */
+.cursos-title {
+  font-family: 'Quico Display', 'Clofie', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.8rem !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.3 !important;
+  color: #FFFFFF !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9) !important;
+  margin-bottom: 2rem !important;
+  text-transform: uppercase !important;
+  background: linear-gradient(135deg, #FFFFFF 0%, #E11D2E 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* FORMULÁRIOS - LABELS LEGÍVEIS */
+.auth-label-legible {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.5 !important;
+  color: #FFFFFF !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+  margin-bottom: 0.5rem !important;
+  display: block !important;
+}
+
+/* SUBTÍTULOS DE FORMULÁRIO */
+.auth-subtitle-legible {
+  font-family: 'Quico Display', 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.4 !important;
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+}
+
+/* BOTÕES COM LEGIBILIDADE MELHORADA */
+.btn-legible {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.4 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* CONTRASTE WCAG AA - GARANTIDO */
+.wcag-aa-contrast {
+  color: #FFFFFF !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+}
+
+/* FALLBACK PARA FONTES DO SISTEMA */
+.font-fallback {
+  font-family: 'Aloevera Display', 'Bebas Neue', 'Arial Black', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* MOBILE RESPONSIVO - LEGIBILIDADE */
+@media (max-width: 768px) {
+  .section-title-legible,
+  .documentarios-title,
+  .revistas-title,
+  .cursos-title {
+    font-size: 2rem !important;
+    letter-spacing: 0.1em !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .auth-label-legible {
+    font-size: 1rem !important;
+  }
+  
+  .auth-subtitle-legible {
+    font-size: 1.3rem !important;
+  }
+}
+
+/* DESKTOP - LEGIBILIDADE PREMIUM */
+@media (min-width: 1200px) {
+  .section-title-legible,
+  .documentarios-title,
+  .revistas-title,
+  .cursos-title {
+    font-size: 3rem !important;
+    letter-spacing: 0.2em !important;
+  }
+}
+
+
+
+/* FORMULÁRIOS DARK PREMIUM - QUALITY OF DESIGN INSPIRED */
+.auth-form-container {
+  background: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  padding: 2rem !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(10px) !important;
+  max-width: 400px !important;
+  margin: 0 auto !important;
+}
+
+.auth-form-title {
+  font-family: 'Quico Display', 'Clofie', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.2rem !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.02em !important;
+  color: #FFFFFF !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+}
+
+.auth-form-input {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  padding: 14px 16px !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 8px !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  color: #FFFFFF !important;
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.auth-form-input:focus {
+  border-color: #E11D2E !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(225, 29, 46, 0.2) !important;
+}
+
+.auth-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+}
+
+.auth-form-button {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.02em !important;
+  padding: 14px 24px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%) !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+}
+
+.auth-form-button:hover {
+  background: linear-gradient(135deg, #B91C3C 0%, #E11D2E 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 16px rgba(225, 29, 46, 0.3) !important;
+}
+
+.auth-social-button {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.01em !important;
+  padding: 12px 20px !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 8px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  width: 100% !important;
+  margin-bottom: 0.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.auth-social-button:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: #E11D2E !important;
+}
+
+.auth-form-link {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  color: #E11D2E !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+}
+
+.auth-form-link:hover {
+  color: #FFFFFF !important;
+  text-decoration: underline !important;
+}
+
+.auth-form-text {
+  font-family: 'Clofie', 'Arial', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-align: center !important;
+  margin: 1rem 0 !important;
+}
+
+/* APLICAÇÃO AUTOMÁTICA NAS SEÇÕES PROBLEMÁTICAS */
+.hero-section h1,
+.documentaries-section h2,
+.courses-section h2,
+.magazines-section h2,
+h2:contains("DOCUMENTÁRIOS EM DESTAQUE"),
+h2:contains("REVISTAS EM DESTAQUE"),
+h2:contains("CURSOS EM DESTAQUE") {
+  font-family: 'Quico Display', 'Clofie', 'Arial Black', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2.8rem !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.08em !important;
+  color: #FFFFFF !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9) !important;
+  margin-bottom: 2rem !important;
+}
+
+/* MOBILE ESPECÍFICO PARA NOVAS FONTES */
+@media (max-width: 768px) {
+  .auth-form-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .auth-form-container {
+    padding: 1.5rem !important;
+    margin: 1rem !important;
+  }
+  
+  .hero-section h1,
+  .documentaries-section h2,
+  .courses-section h2,
+  .magazines-section h2 {
+    font-size: 2.2rem !important;
+    letter-spacing: 0.05em !important;
+  }
+}
+

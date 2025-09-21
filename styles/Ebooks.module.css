@@ -1,0 +1,261 @@
+.heroSection {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/images/ebooks/ebooks-hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.heroContent {
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #FFD700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.heroContent p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ebooksContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+}
+
+.filterSection {
+  margin-bottom: 30px;
+}
+
+.filterSection h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #FFD700;
+}
+
+.categoryFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.categoryBtn {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categoryBtn:hover {
+  background-color: #444;
+}
+
+.categoryBtn.active {
+  background-color: #FFD700;
+  color: #000;
+  border-color: #FFD700;
+}
+
+.ebooksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.ebookCard {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ebookCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ebookCover {
+  height: 300px;
+  overflow: hidden;
+}
+
+.ebookCover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.ebookCard:hover .ebookCover img {
+  transform: scale(1.05);
+}
+
+.ebookInfo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ebookInfo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #FFD700;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #FFD700;
+}
+
+.purchaseOptions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.directPurchaseBtn {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.directPurchaseBtn:hover {
+  background-color: #f0c800;
+}
+
+.amazonBtn {
+  background-color: #232F3E;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazonBtn:hover {
+  background-color: #37475A;
+}
+
+.detailsLink {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.detailsLink:hover {
+  color: #FFD700;
+}
+
+.infoSection {
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.infoCard {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.infoCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #FFD700;
+}
+
+.infoCard p {
+  margin-bottom: 15px;
+}
+
+.infoCard ul {
+  padding-left: 20px;
+}
+
+.infoCard li {
+  margin-bottom: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .heroSection {
+    height: 200px;
+  }
+  
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+  
+  .heroContent p {
+    font-size: 1.2rem;
+  }
+  
+  .ebooksGrid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .purchaseOptions {
+    flex-direction: column;
+  }
+  
+  .ebookCover {
+    height: 200px;
+  }
+}

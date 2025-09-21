@@ -1,0 +1,269 @@
+/* Netflix-style Carousel Component */
+.carouselSection {
+  margin: 60px 0;
+  padding: 0 20px;
+}
+
+.carouselHeader {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.carouselTitle {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carouselContainer {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Carousel Arrows */
+.carouselArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(225, 29, 46, 0.6);
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.carouselArrow:hover {
+  background: rgba(225, 29, 46, 0.9);
+  border-color: #E11D2E;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 20px rgba(225, 29, 46, 0.4);
+}
+
+.carouselArrow:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+.carouselArrowLeft {
+  left: -25px;
+}
+
+.carouselArrowRight {
+  right: -25px;
+}
+
+/* Main Carousel Container */
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  cursor: grab;
+  padding: 10px 0 20px 0;
+  
+  /* Scroll Snap */
+  scroll-snap-type: x mandatory;
+  
+  /* Hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel:active {
+  cursor: grabbing;
+}
+
+/* Carousel Items */
+.carouselItem {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+}
+
+.carouselItem:hover {
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+/* Pagination Dots for Mobile */
+.carouselDots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.carouselDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carouselDot.active {
+  background: #E11D2E;
+  transform: scale(1.2);
+}
+
+.carouselDot:hover {
+  background: rgba(225, 29, 46, 0.7);
+}
+
+/* Responsive Design */
+@media (min-width: 1200px) {
+  .carouselItem {
+    width: calc(25% - 15px); /* 4 items per view */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .carouselItem {
+    width: calc(33.333% - 14px); /* 3 items per view */
+  }
+  
+  .carouselArrowLeft {
+    left: -20px;
+  }
+  
+  .carouselArrowRight {
+    right: -20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carouselSection {
+    margin: 40px 0;
+    padding: 0 10px;
+  }
+  
+  .carouselHeader {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+  
+  .carouselTitle {
+    font-size: 1.3rem;
+  }
+  
+  .carousel {
+    gap: 15px;
+    padding: 5px 0 15px 0;
+  }
+  
+  .carouselItem {
+    width: calc(85vw - 20px); /* 1.2 items per view */
+    min-width: 280px;
+  }
+  
+  /* Hide arrows on mobile, use swipe instead */
+  .carouselArrow {
+    display: none;
+  }
+  
+  .carouselDots {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .carouselItem {
+    width: calc(90vw - 15px);
+    min-width: 250px;
+  }
+  
+  .carouselSection {
+    padding: 0 5px;
+  }
+  
+  .carouselHeader {
+    padding: 0 5px;
+  }
+}
+
+/* Accessibility */
+.carousel:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling for keyboard navigation */
+@media (prefers-reduced-motion: no-preference) {
+  .carousel {
+    scroll-behavior: smooth;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .carouselArrow {
+    background: #000000;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+  }
+  
+  .carouselArrow:hover {
+    background: #FFFFFF;
+    color: #000000;
+  }
+  
+  .carouselDot {
+    background: #FFFFFF;
+  }
+  
+  .carouselDot.active {
+    background: #FFFF00;
+  }
+}
+
+/* Loading state */
+.carouselItem.loading {
+  background: linear-gradient(90deg, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Lazy loading optimization */
+.carouselItem img {
+  loading: lazy;
+  transition: opacity 0.3s ease;
+}
+
+.carouselItem img[data-loaded="false"] {
+  opacity: 0;
+}
+
+.carouselItem img[data-loaded="true"] {
+  opacity: 1;
+}
+

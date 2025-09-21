@@ -1,0 +1,140 @@
+.footer {
+  background-color: rgba(18, 18, 18, 0.95);
+  padding: 60px 0 30px;
+  border-top: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.logoSection {
+  flex: 0 0 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.logoText {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.tagline {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.linksSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.linkColumn {
+  min-width: 160px;
+}
+
+.linkTitle {
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.linkList {
+  list-style: none;
+}
+
+.linkList li {
+  margin-bottom: 12px;
+}
+
+.linkList a {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.linkList a:hover {
+  color: var(--color-primary);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+}
+
+.legal {
+  display: flex;
+  gap: 20px;
+}
+
+.legal a {
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.legal a:hover {
+  color: var(--color-primary);
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+  }
+  
+  .logoSection {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .linksSection {
+    width: 100%;
+    gap: 40px;
+  }
+  
+  .bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .linksSection {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .linkColumn {
+    width: 100%;
+  }
+}

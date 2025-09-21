@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Afiliado | Apocalypse Academy</title>
+    <style>
+        :root {
+            --primary: #f8b700;
+            --dark: #121212;
+            --dark-light: #1a1a1a;
+            --gray: #888;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--white);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-link {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .dashboard-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tabs-container {
+            display: flex;
+            border-bottom: 1px solid #333;
+            margin-bottom: 2rem;
+            overflow-x: auto;
+        }
+        
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--gray);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .tab-button:hover {
+            color: var(--primary);
+        }
+        
+        .active-tab {
+            color: var(--primary);
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        .tab-content {
+            min-height: 500px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--dark-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-card h3 {
+            font-size: 1rem;
+            color: var(--gray);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .link-section {
+            background: var(--dark-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .link-container {
+            display: flex;
+            margin: 1rem 0;
+        }
+        
+        .link-input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid #333;
+            border-radius: 4px 0 0 4px;
+            background: #222;
+            color: var(--white);
+        }
+        
+        .copy-button {
+            padding: 0.75rem 1.5rem;
+            background: var(--primary);
+            color: #000;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .copy-button:hover {
+            background: #e6a800;
+        }
+        
+        .link-help {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+        
+        .recent-activity {
+            background: var(--dark-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .activity-list {
+            margin-top: 1rem;
+        }
+        
+        .activity-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+        
+        .activity-date {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        
+        .data-table th {
+            background: var(--dark-light);
+            color: var(--gray);
+            font-weight: 600;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .registered {
+            background: #2d3748;
+            color: #a0aec0;
+        }
+        
+        .subscribed {
+            background: #2c5282;
+            color: #90cdf4;
+        }
+        
+        .paid {
+            background: #276749;
+            color: #9ae6b4;
+        }
+        
+        .pending {
+            background: #744210;
+            color: #fbd38d;
+        }
+        
+        .earnings-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .earnings-card {
+            background: var(--dark-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .earnings-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .material-card {
+            background: var(--dark-light);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .material-preview {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #222;
+        }
+        
+        .banner-placeholder {
+            color: var(--gray);
+            font-weight: 600;
+        }
+        
+        .material-actions {
+            display: flex;
+            padding: 1rem;
+        }
+        
+        .material-button {
+            flex: 1;
+            padding: 0.75rem;
+            background: #333;
+            color: var(--white);
+            border: none;
+            border-radius: 4px;
+            margin: 0 0.5rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .material-button:hover {
+            background: #444;
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        
+        .footer-text {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid,
+            .earnings-summary {
+                grid-template-columns: 1fr;
+            }
+            
+            .tab-button {
+                padding: 0.75rem 1rem;
+                font-size: 0.9rem;
+            }
+            
+            .stat-value,
+            .earnings-value {
+                font-size: 1.5rem;
+            }
+            
+            .link-container {
+                flex-direction: column;
+            }
+            
+            .link-input {
+                border-radius: 4px;
+                margin-bottom: 0.5rem;
+            }
+            
+            .copy-button {
+                border-radius: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">Apocalypse Academy</a>
+            <nav class="nav-links">
+                <a href="#" class="nav-link">Início</a>
+                <a href="#" class="nav-link">Documentários</a>
+                <a href="#" class="nav-link">Cursos</a>
+                <a href="#" class="nav-link">Afiliados</a>
+                <a href="#" class="nav-link">Minha Conta</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="dashboard-title">Dashboard de Afiliado</h1>
+        
+        <div class="tabs-container">
+            <button class="tab-button active-tab" onclick="showTab('overview')">Visão Geral</button>
+            <button class="tab-button" onclick="showTab('referrals')">Referidos</button>
+            <button class="tab-button" onclick="showTab('earnings')">Ganhos</button>
+            <button class="tab-button" onclick="showTab('materials')">Materiais</button>
+        </div>
+        
+        <div id="overview" class="tab-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Visitantes</h3>
+                    <p class="stat-value">487</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Registros</h3>
+                    <p class="stat-value">42</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Conversões</h3>
+                    <p class="stat-value">18</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Ganhos Totais</h3>
+                    <p class="stat-value">R$ 765,00</p>
+                </div>
+            </div>
+            
+            <div class="link-section">
+                <h3>Seu Link de Afiliado</h3>
+                <div class="link-container">
+                    <input type="text" value="https://apocalypse-academy.com/?ref=123456" readonly class="link-input">
+                    <button class="copy-button" onclick="alert('Link copiado!')">Copiar</button>
+                </div>
+                <p class="link-help">
+                    Compartilhe este link com seus amigos e ganhe comissões quando eles se registrarem ou assinarem a plataforma.
+                </p>
+            </div>
+            
+            <div class="recent-activity">
+                <h3>Atividade Recente</h3>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <p><strong>Maria Oliveira</strong> assinou um plano através do seu link</p>
+                        <span class="activity-date">2025-06-01</span>
+                    </div>
+                    <div class="activity-item">
+                        <p><strong>João Silva</strong> se registrou através do seu link</p>
+                        <span class="activity-date">2025-05-29</span>
+                    </div>
+                    <div class="activity-item">
+                        <p><strong>Pedro Santos</strong> se registrou através do seu link</p>
+                        <span class="activity-date">2025-05-28</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="referrals" class="tab-content" style="display: none;">
+            <h3>Seus Referidos</h3>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Data</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>João Silva</td>
+                            <td>joao@exemplo.com</td>
+                            <td>2025-05-28</td>
+                            <td>
+                                <span class="status-badge registered">Registrado</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Maria Oliveira</td>
+                            <td>maria@exemplo.com</td>
+                            <td>2025-05-29</td>
+                            <td>
+                                <span class="status-badge subscribed">Assinante</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pedro Santos</td>
+                            <td>pedro@exemplo.com</td>
+                            <td>2025-05-30</td>
+                            <td>
+                                <span class="status-badge registered">Registrado</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ana Souza</td>
+                            <td>ana@exemplo.com</td>
+                            <td>2025-06-01</td>
+                            <td>
+                                <span class="status-badge subscribed">Assinante</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Ferreira</td>
+                            <td>carlos@exemplo.com</td>
+                            <td>2025-06-02</td>
+                            <td>
+                                <span class="status-badge registered">Registrado</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="earnings" class="tab-content" style="display: none;">
+            <div class="earnings-summary">
+                <div class="earnings-card">
+                    <h3>Ganhos Totais</h3>
+                    <p class="earnings-value">R$ 765,00</p>
+                </div>
+                <div class="earnings-card">
+                    <h3>Pagamentos Pendentes</h3>
+                    <p class="earnings-value">R$ 115,00</p>
+                </div>
+            </div>
+            
+            <h3>Histórico de Ganhos</h3>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Valor</th>
+                            <th>Tipo</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-05-29</td>
+                            <td>R$ 150,00</td>
+                            <td>Referência</td>
+                            <td>
+                                <span class="status-badge paid">Pago</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2025-06-01</td>
+                            <td>R$ 500,00</td>
+                            <td>Referência</td>
+                            <td>
+                                <span class="status-badge paid">Pago</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2025-06-01</td>
+                            <td>R$ 15,00</td>
+                            <td>Visualização de Conteúdo</td>
+                            <td>
+                                <span class="status-badge pending">Pendente</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2025-06-02</td>
+                            <td>R$ 100,00</td>
+                            <td>Bônus</td>
+                            <td>
+                                <span class="status-badge pending">Pendente</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="materials" class="tab-content" style="display: none;">
+            <h3>Materiais Promocionais</h3>
+            <p style="margin-bottom: 2rem;">
+                Utilize estes materiais para promover a Apocalypse Academy em suas redes sociais e sites.
+            </p>
+            
+            <div class="materials-grid">
+                <div class="material-card">
+                    <div class="material-preview">
+                        <div class="banner-placeholder">Banner 728x90</div>
+                    </div>
+                    <div class="material-actions">
+                        <button class="material-button">Baixar</button>
+                        <button class="material-button">Copiar Código</button>
+                    </div>
+                </div>
+                
+                <div class="material-card">
+                    <div class="material-preview">
+                        <div class="banner-placeholder">Banner 300x250</div>
+                    </div>
+                    <div class="material-actions">
+                        <button class="material-button">Baixar</button>
+                        <button class="material-button">Copiar Código</button>
+                    </div>
+                </div>
+                
+                <div class="material-card">
+                    <div class="material-preview">
+                        <div class="banner-placeholder">Banner 160x600</div>
+                    </div>
+                    <div class="material-actions">
+                        <button class="material-button">Baixar</button>
+                        <button class="material-button">Copiar Código</button>
+                    </div>
+                </div>
+                
+                <div class="material-card">
+                    <div class="material-preview">
+                        <div class="banner-placeholder">Post Instagram</div>
+                    </div>
+                    <div class="material-actions">
+                        <button class="material-button">Baixar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Apocalypse Academy. Todos os direitos reservados. Powered by Eric Alberto</p>
+        </div>
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            // Esconder todos os conteúdos de abas
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.style.display = 'none';
+            });
+            
+            // Remover classe ativa de todos os botões
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('active-tab');
+            });
+            
+            // Mostrar o conteúdo da aba selecionada
+            document.getElementById(tabId).style.display = 'block';
+            
+            // Adicionar classe ativa ao botão clicado
+            event.target.classList.add('active-tab');
+        }
+    </script>
+</body>
+</html>

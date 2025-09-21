@@ -1,0 +1,1402 @@
+nohup: ignoring input
+
+> apocalypse-academy@0.1.0 start
+> next start
+
+  ▲ Next.js 13.5.11
+  - Local:        http://localhost:9000
+
+ ✓ Ready in 416ms
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)
+MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/ubuntu/upload/apocalypse-academy-final/.next/server/pages/404.html'
+    at /home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/load-components.js:59:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/next-server.js:439:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1784:30)
+    at async pipe.req.req (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:1740:30)
+    at async NextNodeServer.pipeImpl (/home/ubuntu/upload/apocalypse-academy-final/node_modules/next/dist/server/base-server.js:834:25)

@@ -1,0 +1,325 @@
+/* Títulos Cinematográficos Premium */
+
+/* Importar fontes cinematográficas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=DM+Sans:wght@400;500;700;900&display=swap');
+
+/* Efeitos de Texto Cinematográfico */
+.cinematic-title-main {
+  font-family: 'Fugaz One', 'Fruitella', 'Arial Black', sans-serif;
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 0.9;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  
+  /* Efeito 3D Principal */
+  text-shadow: 
+    0 1px 0 #CCCCCC,
+    0 2px 0 #BBBBBB,
+    0 3px 0 #AAAAAA,
+    0 4px 0 #999999,
+    0 5px 0 #888888,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    
+  /* Gradiente metálico */
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #F0F0F0 25%, 
+    #E0E0E0 50%, 
+    #D0D0D0 75%, 
+    #C0C0C0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  /* Animação de brilho */
+  animation: cinematicShine 4s ease-in-out infinite;
+}
+
+@keyframes cinematicShine {
+  0%, 100% { 
+    filter: brightness(1) contrast(1);
+    transform: scale(1);
+  }
+  50% { 
+    filter: brightness(1.2) contrast(1.1);
+    transform: scale(1.02);
+  }
+}
+
+/* Título Secundário Cinematográfico */
+.cinematic-title-secondary {
+  font-family: 'DM Sans', 'Robusto', sans-serif;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #E11D2E;
+  text-align: center;
+  position: relative;
+  margin-top: -0.5em;
+  
+  /* Efeito de profundidade vermelho */
+  text-shadow: 
+    0 1px 0 #C41E3A,
+    0 2px 0 #B01E3A,
+    0 3px 0 #9C1E3A,
+    0 4px 0 #881E3A,
+    0 5px 0 #741E3A,
+    0 6px 1px rgba(225, 29, 46, 0.3),
+    0 0 5px rgba(225, 29, 46, 0.4),
+    0 1px 3px rgba(225, 29, 46, 0.5),
+    0 3px 5px rgba(225, 29, 46, 0.4),
+    0 5px 10px rgba(225, 29, 46, 0.3);
+    
+  /* Brilho vermelho */
+  filter: drop-shadow(0 0 10px rgba(225, 29, 46, 0.6));
+}
+
+/* Subtítulo Cinematográfico */
+.cinematic-subtitle {
+  font-family: 'DM Sans', 'Albercio', sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.8rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-top: 1rem;
+  
+  /* Efeito sutil */
+  text-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Título de Card Cinematográfico */
+.cinematic-card-title {
+  font-family: 'Fugaz One', 'Fruitella', sans-serif;
+  font-size: clamp(1.2rem, 3vw, 2.5rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  line-height: 1.1;
+  
+  /* Efeito 3D reduzido */
+  text-shadow: 
+    0 1px 0 #AAAAAA,
+    0 2px 0 #999999,
+    0 3px 0 #888888,
+    0 4px 0 #777777,
+    0 5px 5px rgba(0,0,0,.3),
+    0 0 5px rgba(225, 29, 46, 0.3);
+    
+  /* Gradiente sutil */
+  background: linear-gradient(135deg, #FFFFFF 0%, #E0E0E0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Texto de Descrição Cinematográfico */
+.cinematic-description {
+  font-family: 'DM Sans', 'Robusto', sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Badge Cinematográfico */
+.cinematic-badge {
+  font-family: 'DM Sans', 'Ezra', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  
+  /* Efeito metálico */
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Efeito de Poster Cinematográfico */
+.cinematic-poster {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.cinematic-poster::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cinematic-poster::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 70%
+  );
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cinematic-poster:hover::after {
+  opacity: 1;
+  animation: shine 1.5s ease-in-out;
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+/* Overlay de Texto Cinematográfico */
+.cinematic-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    transparent 100%
+  );
+  z-index: 3;
+}
+
+/* Botão Cinematográfico */
+.cinematic-button {
+  font-family: 'DM Sans', 'Ezra', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  
+  /* Efeito metálico */
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cinematic-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.cinematic-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(225, 29, 46, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.cinematic-button:hover::before {
+  left: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .cinematic-title-main {
+    font-size: clamp(2rem, 10vw, 4rem);
+    letter-spacing: 0.05em;
+  }
+  
+  .cinematic-title-secondary {
+    font-size: clamp(1rem, 5vw, 2rem);
+    letter-spacing: 0.1em;
+  }
+  
+  .cinematic-subtitle {
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    letter-spacing: 0.2em;
+  }
+  
+  .cinematic-overlay {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cinematic-title-main {
+    font-size: clamp(1.5rem, 12vw, 3rem);
+  }
+  
+  .cinematic-card-title {
+    font-size: clamp(1rem, 4vw, 1.8rem);
+  }
+  
+  .cinematic-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+

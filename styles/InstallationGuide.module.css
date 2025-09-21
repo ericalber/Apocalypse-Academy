@@ -1,0 +1,353 @@
+.guideContainer {
+  padding: 80px 0;
+  background-color: var(--color-background);
+}
+
+.guideHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.guideTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+}
+
+.guideDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.guideContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.guideSection {
+  margin-bottom: 60px;
+  background-color: var(--color-background-secondary);
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(--color-text-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: var(--color-text-secondary);
+}
+
+/* Requisitos */
+.requirementsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.requirementItem {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.requirementItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.requirementTitle {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--color-text-primary);
+}
+
+.requirementDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+}
+
+.requirementLink {
+  display: inline-block;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.requirementLink:hover {
+  color: #e6c200;
+  text-decoration: underline;
+}
+
+.hostingLinks {
+  display: flex;
+  gap: 15px;
+}
+
+/* Passos de Instalação */
+.installSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stepItem {
+  display: flex;
+  gap: 20px;
+}
+
+.stepNumber {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepTitle {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--color-text-primary);
+}
+
+.stepDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+}
+
+.stepNote {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.codeBlock {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  overflow-x: auto;
+}
+
+.codeBlock code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #e6e6e6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Opções de Implantação */
+.deploymentOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.deploymentItem {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.deploymentTitle {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--color-text-primary);
+}
+
+.deploymentDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+}
+
+.deploymentSteps ol {
+  padding-left: 20px;
+}
+
+.deploymentSteps li {
+  margin-bottom: 10px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.deploymentSteps code {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+}
+
+/* Integrações */
+.integrationItem {
+  margin-bottom: 40px;
+}
+
+.integrationTitle {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--color-text-primary);
+}
+
+.integrationDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+}
+
+.integrationOptions {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.integrationOptions li {
+  margin-bottom: 10px;
+  color: var(--color-text-secondary);
+}
+
+.integrationSteps {
+  padding-left: 20px;
+}
+
+.integrationSteps li {
+  margin-bottom: 10px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.integrationNote {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* Personalização */
+.customizationItem {
+  margin-bottom: 25px;
+}
+
+.customizationTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+.customizationPath {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.customizationDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+/* Suporte */
+.supportDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: var(--color-text-secondary);
+}
+
+.supportContact {
+  display: flex;
+  gap: 30px;
+}
+
+.contactItem {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.contactTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+.contactValue {
+  font-size: 1rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 1024px) {
+  .requirementsList {
+    grid-template-columns: 1fr;
+  }
+  
+  .supportContact {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .guideTitle {
+    font-size: 2.5rem;
+  }
+  
+  .guideSection {
+    padding: 30px;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .guideTitle {
+    font-size: 2rem;
+  }
+  
+  .stepItem {
+    flex-direction: column;
+  }
+  
+  .stepNumber {
+    margin-bottom: 10px;
+  }
+}

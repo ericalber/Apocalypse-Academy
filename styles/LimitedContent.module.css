@@ -1,0 +1,477 @@
+/* Limited Content Styles - Seguindo Guide Master */
+
+.limitedContent {
+  width: 100%;
+  background: #0A0A0A;
+  color: white;
+}
+
+.section {
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #E11D2E;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Documentário Destaque */
+.documentaryHighlight {
+  display: flex;
+  justify-content: center;
+}
+
+.documentaryCard {
+  background: linear-gradient(135deg, #1A1A1A 0%, #2A1A1A 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.documentaryCard:hover {
+  transform: translateY(-5px);
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qualityBadge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.lockOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lockIcon {
+  font-size: 3rem;
+  opacity: 0.9;
+}
+
+.cardContent {
+  padding: 30px;
+}
+
+.cardContent h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.cardContent p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.cardMeta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(135deg, #C41E3A 0%, #A01729 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(225, 29, 46, 0.3);
+}
+
+/* Cursos Grid */
+.coursesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.courseCard {
+  background: linear-gradient(135deg, #1A1A1A 0%, #2A1A1A 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+}
+
+.courseImage {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.courseImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.courseContent {
+  padding: 20px;
+}
+
+.courseContent h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.courseContent p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 15px;
+}
+
+.coursePrice {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #E11D2E;
+  margin-bottom: 15px;
+}
+
+.ctaButtonSmall {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.ctaButtonSmall:hover {
+  background: linear-gradient(135deg, #C41E3A 0%, #A01729 100%);
+  transform: translateY(-2px);
+}
+
+/* Revistas Grid */
+.magazinesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.magazineCard {
+  background: linear-gradient(135deg, #1A1A1A 0%, #2A1A1A 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.magazineCard:hover {
+  transform: translateY(-5px);
+}
+
+.magazineImage {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.magazineImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newBadge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(135deg, #00C851 0%, #007E33 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.magazineContent {
+  padding: 25px;
+}
+
+.magazineContent h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.magazineContent p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.priceInfo {
+  margin-bottom: 20px;
+}
+
+.publicPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.priceLabel {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.price {
+  color: #E11D2E;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.memberDiscount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discountLabel {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.discountPrice {
+  color: #00C851;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.magazineActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buyButton {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex: 1;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.buyButton:hover {
+  background: linear-gradient(135deg, #C41E3A 0%, #A01729 100%);
+  transform: translateY(-2px);
+}
+
+.subscribeButton {
+  background: linear-gradient(135deg, #00C851 0%, #007E33 100%);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex: 1;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.subscribeButton:hover {
+  background: linear-gradient(135deg, #007E33 0%, #004D1F 100%);
+  transform: translateY(-2px);
+}
+
+/* eBooks Grid */
+.ebooksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.ebookCard {
+  background: linear-gradient(135deg, #1A1A1A 0%, #2A1A1A 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.ebookCard:hover {
+  transform: translateY(-5px);
+}
+
+.ebookImage {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.ebookImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.freeBadge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(135deg, #00C851 0%, #007E33 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.discountBadge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(135deg, #FF6B35 0%, #E55A2B 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ebookContent {
+  padding: 20px;
+}
+
+.ebookContent h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.ebookContent p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 15px;
+}
+
+.ebookPrice {
+  margin-bottom: 15px;
+}
+
+.exclusiveLabel {
+  color: #00C851;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.memberDiscount {
+  color: #FF6B35;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .coursesGrid,
+  .magazinesGrid,
+  .ebooksGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .magazineActions {
+    flex-direction: column;
+  }
+  
+  .cardContent {
+    padding: 20px;
+  }
+  
+  .cardContent h3 {
+    font-size: 1.5rem;
+  }
+}
+

@@ -1,0 +1,216 @@
+/* Fontes Premium Apocalypse Academy */
+
+/* Fruitella - Geometric Sans (Hero Titles) */
+@font-face {
+  font-family: 'Fruitella';
+  src: url('/fonts/Fruitella.woff2') format('woff2'),
+       url('/fonts/Fruitella.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Albercio Condensed - Sans (Section Headers) */
+@font-face {
+  font-family: 'Albercio';
+  src: url('/fonts/Albercio-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Robusto Pro - Modern Typeface (Body Text) */
+@font-face {
+  font-family: 'Robusto';
+  src: url('/fonts/Robusto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robusto';
+  src: url('/fonts/Robusto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robusto';
+  src: url('/fonts/Robusto-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ezra Modern - Sans (CTAs/Buttons) */
+@font-face {
+  font-family: 'Ezra';
+  src: url('/fonts/Ezra-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ezra';
+  src: url('/fonts/Ezra-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bebas Neue - Condensed Sans (Textos Legíveis) */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Aplicação das Fontes no Design System */
+
+/* Hero Titles - Fruitella (Máximo Impacto) */
+.hero-title,
+.slide-title,
+h1 {
+  font-family: 'Fruitella', 'Arial Black', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Section Headers - Albercio (Elegância Cinematográfica) */
+.section-title,
+h2 {
+  font-family: 'Albercio', 'Arial Narrow', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Subtitles - Bebas Neue (Legibilidade Premium) */
+.subtitle,
+.slide-subtitle,
+.section-subtitle,
+.page-subtitle,
+h3 {
+  font-family: 'Bebas Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+/* Body Text - Bebas Neue (Legibilidade Premium) */
+body,
+p,
+.card-description,
+.description {
+  font-family: 'Bebas Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+/* CTAs e Buttons - Ezra (Modernidade) */
+.cta-primary,
+.cta-secondary,
+.btn,
+button {
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Card Titles - Robusto Bold */
+.card-title,
+h4 {
+  font-family: 'Robusto', 'Arial', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Meta Text - Bebas Neue (Legibilidade Melhorada) */
+.meta,
+.duration,
+.rating,
+.price,
+.students,
+.course-info,
+.documentary-info,
+.magazine-info {
+  font-family: 'Bebas Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
+/* Navigation - Ezra Regular */
+.nav-link,
+.menu-item {
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Badges - Ezra Bold */
+.badge,
+.quality-badge,
+.category-badge,
+.level-badge {
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Efeitos Cinematográficos */
+.cinematic-title {
+  font-family: 'Fruitella', 'Arial Black', sans-serif;
+  text-shadow: 
+    0 0 10px rgba(225, 29, 46, 0.5),
+    0 0 20px rgba(225, 29, 46, 0.3),
+    0 0 30px rgba(225, 29, 46, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.premium-text {
+  font-family: 'Albercio', 'Arial Narrow', sans-serif;
+  background: linear-gradient(45deg, #FFFFFF, #CCCCCC, #FFFFFF);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsividade das Fontes */
+@media (max-width: 768px) {
+  .hero-title,
+  .slide-title,
+  h1 {
+    letter-spacing: 2px;
+  }
+  
+  .section-title,
+  h2 {
+    letter-spacing: 1px;
+  }
+  
+  .cinematic-title {
+    letter-spacing: 2px;
+  }
+}
+

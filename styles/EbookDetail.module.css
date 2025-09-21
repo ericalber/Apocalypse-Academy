@@ -1,0 +1,594 @@
+/* E-book Detail Page - Estética Cinematográfica */
+
+.ebookDetailContainer {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: #ffffff;
+}
+
+.main {
+  padding-top: 80px;
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 69, 19, 0.3) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(139, 69, 19, 0.2) 100%
+  );
+  padding: 60px 20px;
+  border-bottom: 2px solid rgba(139, 69, 19, 0.3);
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* E-book Cover */
+.ebookCover {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.ebookCover:hover {
+  transform: translateY(-5px);
+}
+
+.coverImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.newBadge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(135deg, #d4af37, #b8860b);
+  color: #000000;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.freeBadge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.discountBadge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* E-book Info */
+.ebookInfo {
+  padding-top: 20px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.breadcrumbLink {
+  color: #d4af37;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.breadcrumbLink:hover {
+  color: #ffd700;
+}
+
+.breadcrumbSeparator {
+  color: #666666;
+}
+
+.breadcrumbCurrent {
+  color: #cccccc;
+}
+
+.ebookTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #d4af37, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+.ebookAuthor {
+  font-size: 1.2rem;
+  color: #d4af37;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.ebookMeta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.metaLabel {
+  font-size: 0.85rem;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metaValue {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.ebookDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+
+/* Price Section */
+.priceSection {
+  margin-bottom: 30px;
+}
+
+.freePrice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.currentPrice {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #d4af37;
+}
+
+.originalPrice {
+  font-size: 1.2rem;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.savings {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Action Buttons */
+.actionButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.readButton {
+  flex: 1;
+  background: linear-gradient(135deg, #d4af37, #b8860b);
+  color: #000000;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.readButton:hover {
+  background: linear-gradient(135deg, #ffd700, #d4af37);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+}
+
+.downloadButton {
+  flex: 1;
+  background: rgba(139, 69, 19, 0.3);
+  color: #ffffff;
+  border: 2px solid rgba(139, 69, 19, 0.5);
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.downloadButton:hover {
+  background: rgba(139, 69, 19, 0.5);
+  border-color: #d4af37;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(139, 69, 19, 0.3);
+}
+
+/* Content Section */
+.contentSection {
+  padding: 60px 20px;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tab Navigation */
+.tabNavigation {
+  display: flex;
+  gap: 0;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgba(139, 69, 19, 0.2);
+}
+
+.tabButton {
+  background: transparent;
+  color: #cccccc;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+}
+
+.tabButton:hover {
+  color: #d4af37;
+  background: rgba(139, 69, 19, 0.1);
+}
+
+.tabButton.active {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+  background: rgba(139, 69, 19, 0.2);
+}
+
+/* Tab Content */
+.tabContent {
+  min-height: 400px;
+}
+
+/* Overview Tab */
+.overviewTab {
+  color: #cccccc;
+}
+
+.overviewGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.descriptionSection h3,
+.detailsSection h3 {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.descriptionSection h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 25px 0 15px 0;
+  font-weight: 600;
+}
+
+.descriptionSection p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+}
+
+.featuresList li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.featuresList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.detailsSection {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  height: fit-content;
+}
+
+.detailsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.detailLabel {
+  color: #999999;
+  font-size: 0.9rem;
+}
+
+.detailValue {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Chapters Tab */
+.chaptersTab h3 {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.chaptersList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chapterItem {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.chapterItem:hover {
+  background: rgba(139, 69, 19, 0.1);
+  border-color: rgba(139, 69, 19, 0.4);
+}
+
+.chapterNumber {
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 100px;
+}
+
+.chapterTitle {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Reviews Tab */
+.reviewsTab h3 {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.reviewsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(139, 69, 19, 0.2);
+}
+
+.ratingOverview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.averageRating {
+  font-size: 1.2rem;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.reviewCount {
+  color: #999999;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.reviewItem {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.reviewerName {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.reviewRating {
+  color: #ffd700;
+}
+
+.reviewText {
+  color: #cccccc;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* Back Section */
+.backSection {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.backButton {
+  background: rgba(139, 69, 19, 0.3);
+  color: #ffffff;
+  border: 2px solid rgba(139, 69, 19, 0.5);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.backButton:hover {
+  background: rgba(139, 69, 19, 0.5);
+  border-color: #d4af37;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .ebookTitle {
+    font-size: 2rem;
+  }
+  
+  .ebookMeta {
+    grid-template-columns: 1fr;
+  }
+  
+  .actionButtons {
+    flex-direction: column;
+  }
+  
+  .overviewGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .tabNavigation {
+    flex-direction: column;
+  }
+  
+  .tabButton {
+    text-align: center;
+  }
+  
+  .reviewsHeader {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContent {
+    padding: 0 10px;
+  }
+  
+  .ebookTitle {
+    font-size: 1.5rem;
+  }
+  
+  .currentPrice {
+    font-size: 1.5rem;
+  }
+  
+  .priceContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+

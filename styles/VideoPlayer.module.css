@@ -1,0 +1,389 @@
+.videoElement {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.playerContainer {
+  padding: 80px 0;
+  background-color: var(--color-background);
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  aspect-ratio: 16 / 9;
+}
+
+.videoPlaceholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  background-image: url('/video-thumbnail.jpg');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.playButton {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(255, 215, 0, 0.8);
+  color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.videoPlaceholder:hover .playButton {
+  transform: scale(1.1);
+  background-color: var(--color-primary);
+}
+
+.placeholderText {
+  color: var(--color-text-primary);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.videoControls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.videoControls.visible {
+  opacity: 1;
+}
+
+.videoWrapper:hover .videoControls {
+  opacity: 1;
+}
+
+.progressBar {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.progressHandle {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.controlsBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controlsLeft, .controlsRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.controlButton {
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.controlButton:hover {
+  color: var(--color-primary);
+}
+
+.volumeControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volumeSlider {
+  position: relative;
+  width: 80px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.volumeProgress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background-color: var(--color-text-primary);
+  border-radius: 5px;
+}
+
+.volumeHandle {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-text-primary);
+  border-radius: 50%;
+}
+
+.timeDisplay {
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+}
+
+.qualitySelector {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.qualitySelector span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.qualityOptions {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background-color: var(--color-background);
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+
+.qualityOption {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.qualityOption:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-primary);
+}
+
+/* Video Info */
+.videoInfo {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.videoTitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+}
+
+.videoDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: var(--color-text-secondary);
+}
+
+.videoMeta {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.metaLabel {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.metaValue {
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.videoTags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.tag {
+  background-color: rgba(255, 215, 0, 0.1);
+  color: var(--color-primary);
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Related Videos */
+.relatedVideos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.relatedTitle {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: var(--color-text-primary);
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.relatedCard {
+  background-color: var(--color-background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.relatedCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.relatedImage {
+  height: 180px;
+  background-color: #2a2a2a;
+  background-size: cover;
+  background-position: center;
+}
+
+.relatedContent {
+  padding: 15px;
+}
+
+.relatedVideoTitle {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: var(--color-text-primary);
+}
+
+.relatedVideoMeta {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* Error Message */
+.errorMessage {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 1024px) {
+  .relatedGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .videoTitle {
+    font-size: 2rem;
+  }
+  
+  .videoMeta {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .playerContainer {
+    padding: 60px 0;
+  }
+  
+  .videoTitle {
+    font-size: 1.8rem;
+  }
+  
+  .controlsBottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .controlsRight {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

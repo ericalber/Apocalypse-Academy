@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0b0b0e"/><stop offset="1" stop-color="#1b0f12"/></linearGradient></defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <text x="50%" y="50%" fill="#e13232" font-size="56" font-family="Inter,system-ui" font-weight="800" text-anchor="middle">APOCALYPSE ACADEMY</text>
+  <text x="50%" y="58%" fill="#d8d8d8" font-size="28" font-family="Inter,system-ui" text-anchor="middle">Imagem temporária</text>
+</svg>

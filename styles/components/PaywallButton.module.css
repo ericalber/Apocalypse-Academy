@@ -1,0 +1,233 @@
+/* Paywall Button Styles */
+.paywallButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.paywallButton:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+.paywallButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Button Variants */
+.paywallButton.primary {
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 15px rgba(225, 29, 46, 0.3);
+}
+
+.paywallButton.primary:hover {
+  background: linear-gradient(135deg, #B91C3C 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(225, 29, 46, 0.4);
+}
+
+.paywallButton.secondary {
+  background: linear-gradient(135deg, #1F2937 0%, #374151 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.paywallButton.secondary:hover {
+  background: linear-gradient(135deg, #374151 0%, #1F2937 100%);
+  border-color: #E11D2E;
+  color: #E11D2E;
+  transform: translateY(-2px);
+}
+
+.paywallButton.outline {
+  background: transparent;
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.paywallButton.outline:hover {
+  border-color: #E11D2E;
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+  transform: translateY(-2px);
+}
+
+.paywallButton.subscription {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.3);
+}
+
+.paywallButton.subscription:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.4);
+}
+
+/* Button Sizes */
+.paywallButton.small {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+}
+
+.paywallButton.medium {
+  padding: 12px 24px;
+  font-size: 0.9rem;
+}
+
+.paywallButton.large {
+  padding: 16px 32px;
+  font-size: 1rem;
+}
+
+/* Paywall Link */
+.paywallLink {
+  color: #E11D2E;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.paywallLink:hover {
+  color: #B91C3C;
+  text-decoration: underline;
+}
+
+.paywallLink:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+/* Paywall Card */
+.paywallCard {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.paywallCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.paywallCard:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+.paywallCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 0%, rgba(225, 29, 46, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.paywallCard:hover::before {
+  opacity: 1;
+}
+
+/* Loading State */
+.paywallButton.loading {
+  position: relative;
+  color: transparent;
+}
+
+.paywallButton.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid #FFFFFF;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .paywallButton.large {
+    padding: 14px 28px;
+    font-size: 0.9rem;
+  }
+  
+  .paywallButton.medium {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+  
+  .paywallButton.small {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .paywallButton.primary {
+    background: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+  }
+  
+  .paywallButton.primary:hover {
+    background: #000000;
+    color: #FFFFFF;
+  }
+  
+  .paywallButton.outline {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+  }
+  
+  .paywallButton.outline:hover {
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .paywallButton,
+  .paywallLink,
+  .paywallCard {
+    transition: none;
+  }
+  
+  .paywallButton:hover,
+  .paywallCard:hover {
+    transform: none;
+  }
+}
+

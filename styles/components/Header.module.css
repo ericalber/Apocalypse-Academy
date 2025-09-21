@@ -1,0 +1,619 @@
+/* Space Background Effects - Preservado */
+.spaceBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A0A0A 50%, #0A0A0A 100%);
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, #FFFFFF, transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 90px 40px, #FFFFFF, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 160px 30px, #FFFFFF, transparent);
+  background-repeat: repeat;
+  background-size: 200px 100px;
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.nebula {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(225, 29, 46, 0.1) 0%, transparent 70%);
+  animation: nebulaPulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes nebulaPulse {
+  0% { transform: scale(1) rotate(0deg); opacity: 0.3; }
+  100% { transform: scale(1.1) rotate(5deg); opacity: 0.6; }
+}
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: rgba(225, 29, 46, 0.8);
+  border-radius: 50%;
+  animation: float linear infinite;
+  box-shadow: 0 0 6px rgba(225, 29, 46, 0.6);
+}
+
+@keyframes float {
+  0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+}
+
+/* Header Principal - Guide Master Layout */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(225, 29, 46, 0.2);
+  transition: all 0.3s ease;
+}
+
+.header.scrolled {
+  background: rgba(0, 0, 0, 0.98);
+  border-bottom-color: rgba(225, 29, 46, 0.4);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/* Logo à Esquerda */
+.logoSection {
+  flex: 0 0 auto;
+  z-index: 1001;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #E11D2E;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navegação Centralizada */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex: 1;
+  margin: 0 40px;
+}
+
+.navLink {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.navLink:hover {
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+  transform: translateY(-2px);
+}
+
+.navLink.active {
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.15);
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #E11D2E, transparent);
+}
+
+/* Ações à Direita */
+.actionsSection {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 0 0 auto;
+}
+
+.loginButton {
+  padding: 10px 20px;
+  background: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+  border-color: #E11D2E;
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(225, 29, 46, 0.2);
+}
+
+.subscribeButton {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(225, 29, 46, 0.3);
+}.mobileSubscribeButton:hover {
+  background: linear-gradient(135deg, #B91C3C 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(225, 29, 46, 0.4);
+}
+
+.mobileDashboardButton {
+  width: 100%;
+  padding: 15px 25px;
+  background: linear-gradient(135deg, #1F2937 0%, #374151 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mobileDashboardButton:hover {
+  background: linear-gradient(135deg, #374151 0%, #1F2937 100%);
+  border-color: #E11D2E;
+  color: #E11D2E;
+}
+
+.mobileSupportButton {
+  width: 100%;
+  padding: 15px 25px;
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mobileSupportButton:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.4);
+}
+
+.dashboardButton {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #1F2937 0%, #374151 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.dashboardButton:hover {
+  background: linear-gradient(135deg, #374151 0%, #1F2937 100%);
+  border-color: #E11D2E;
+  color: #E11D2E;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(225, 29, 46, 0.2);
+}
+
+.supportButton {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.supportButton:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.4);
+}
+
+.logoutButton {
+  padding: 10px 20px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logoutButton:hover {
+  border-color: #E11D2E;
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+}
+
+/* Botão Hambúrguer */
+.hamburgerButton {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+
+.hamburgerLine {
+  width: 100%;
+  height: 3px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .hamburgerButton {
+    display: flex;
+  }
+}
+
+/* Menu Mobile Overlay */
+.mobileMenuOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 100%;
+  max-width: 400px;
+  height: calc(100vh - 80px);
+  background: rgba(10, 10, 10, 0.98);
+  backdrop-filter: blur(30px);
+  border-left: 1px solid rgba(225, 29, 46, 0.3);
+  z-index: 1001;
+  overflow-y: auto;
+  animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.mobileMenuContent {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobileNavLink {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-left: 3px solid transparent;
+}
+
+.mobileNavLink:hover {
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+  border-left-color: #E11D2E;
+  transform: translateX(5px);
+}
+
+.mobileNavLink.active {
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.15);
+  border-left-color: #E11D2E;
+}
+
+.mobileActions {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mobileLoginButton {
+  padding: 15px 25px;
+  background: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mobileLoginButton:hover {
+  border-color: #E11D2E;
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+}
+
+.mobileSubscribeButton {
+  padding: 15px 25px;
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mobileSubscribeButton:hover {
+  background: linear-gradient(135deg, #B91C3C 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+}
+
+.mobileLogoutButton {
+  padding: 15px 25px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mobileLogoutButton:hover {
+  border-color: #E11D2E;
+  color: #E11D2E;
+  background: rgba(225, 29, 46, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .navigation {
+    gap: 24px;
+    margin: 0 20px;
+  }
+  
+  .navLink {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+    height: 70px;
+  }
+  
+  .navigation {
+    display: none;
+  }
+  
+  .mobileMenuButton {
+    display: flex;
+  }
+  
+  .logoText {
+    font-size: 1.3rem;
+  }
+  
+  .actionsSection {
+    gap: 12px;
+  }
+  
+  .loginButton,
+  .subscribeButton {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+  
+  .mobileMenu {
+    top: 70px;
+    height: calc(100vh - 70px);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .logoText {
+    font-size: 1.1rem;
+  }
+  
+  .loginButton,
+  .subscribeButton {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+  
+  .mobileMenu {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .mobileMenuContent {
+    padding: 30px 20px;
+  }
+}
+
+/* Estados de Foco para Acessibilidade */
+.logo:focus,
+.navLink:focus,
+.loginButton:focus,
+.subscribeButton:focus,
+.logoutButton:focus,
+.mobileMenuButton:focus,
+.mobileNavLink:focus,
+.mobileLoginButton:focus,
+.mobileSubscribeButton:focus,
+.mobileLogoutButton:focus {
+  outline: 2px solid #E11D2E;
+  outline-offset: 2px;
+}
+
+/* Prevenção de overflow horizontal */
+.header,
+.container,
+.navigation,
+.actionsSection {
+  overflow-x: hidden;
+}
+
+
+/* Botão Dashboard Mobile */
+.mobileDashboardButton {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #1F2937 0%, #374151 100%);
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+  border: 2px solid transparent;
+}
+
+.mobileDashboardButton:hover {
+  background: linear-gradient(135deg, #374151 0%, #1F2937 100%);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+

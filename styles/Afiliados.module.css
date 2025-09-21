@@ -1,0 +1,357 @@
+/* Seguindo Guide Master - Paleta preta/vermelha cinematográfica */
+
+.main {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+  color: #FFFFFF;
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+  padding: 80px 0;
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(225, 29, 46, 0.1) 0%, transparent 70%);
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #E11D2E, #FF4757);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(225, 29, 46, 0.3);
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #CCCCCC;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.cta {
+  margin-top: 40px;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: linear-gradient(135deg, #E11D2E, #FF4757);
+  color: #FFFFFF;
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(225, 29, 46, 0.3);
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(225, 29, 46, 0.4);
+}
+
+.ctaText {
+  margin-top: 16px;
+  color: #999999;
+  font-size: 0.9rem;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: -0.01em;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.statCard {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(225, 29, 46, 0.3);
+  box-shadow: 0 8px 32px rgba(225, 29, 46, 0.2);
+}
+
+.statIcon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.statValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #E11D2E;
+  margin-bottom: 8px;
+}
+
+.statLabel {
+  color: #CCCCCC;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Tier Progress */
+.tierProgress {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+}
+
+.tierProgress h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.progressBar {
+  width: 100%;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #E11D2E, #FF4757);
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+/* Comissões */
+.commissions {
+  padding: 80px 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.tiersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.tierCard {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tierCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(225, 29, 46, 0.3);
+  box-shadow: 0 8px 32px rgba(225, 29, 46, 0.2);
+}
+
+.tierBadge {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+.tierCommission {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #E11D2E;
+  margin-bottom: 8px;
+}
+
+.tierRequirement {
+  color: #CCCCCC;
+  font-size: 0.9rem;
+}
+
+/* Links de Afiliado */
+.links {
+  padding: 80px 0;
+}
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.linkCard {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.linkCard:hover {
+  border-color: rgba(225, 29, 46, 0.3);
+  box-shadow: 0 8px 32px rgba(225, 29, 46, 0.2);
+}
+
+.linkCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #FFFFFF;
+}
+
+.linkCard p {
+  color: #CCCCCC;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.linkInput {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 12px;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.linkInput:focus {
+  outline: none;
+  border-color: #E11D2E;
+  box-shadow: 0 0 0 2px rgba(225, 29, 46, 0.2);
+}
+
+.copyButton {
+  background: linear-gradient(135deg, #E11D2E, #FF4757);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.copyButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(225, 29, 46, 0.3);
+}
+
+/* Como Funciona */
+.howItWorks {
+  padding: 80px 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.step {
+  text-align: center;
+  padding: 32px 24px;
+}
+
+.stepNumber {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #E11D2E, #FF4757);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 auto 20px;
+}
+
+.step h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+}
+
+.step p {
+  color: #CCCCCC;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .tiersGrid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  
+  .linksGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .stepsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+}
+

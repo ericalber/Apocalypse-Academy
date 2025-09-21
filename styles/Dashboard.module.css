@@ -1,0 +1,1502 @@
+.dashboardContainer {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.dashboardTitle {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #e50914;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #e50914;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.tabsContainer {
+  display: flex;
+  border-bottom: 1px solid #333;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.tabButton:hover {
+  color: #e50914;
+}
+
+.activeTab {
+  color: #e50914;
+  border-bottom: 3px solid #e50914;
+}
+
+.tabContent {
+  min-height: 500px;
+}
+
+/* Overview Tab */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statCard h3 {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.statValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e50914;
+}
+
+.linkSection {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.linkContainer {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.linkInput {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #333;
+  border-radius: 4px 0 0 4px;
+  background: #222;
+  color: #fff;
+}
+
+.copyButton {
+  padding: 0.75rem 1.5rem;
+  background: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.copyButton:hover {
+  background: #ff1f3d;
+}
+
+.linkHelp {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.recentActivity {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.activityList {
+  margin-top: 1rem;
+}
+
+.activityItem {
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activityItem:last-child {
+  border-bottom: none;
+}
+
+.activityDate {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Referrals Tab */
+.tableContainer {
+  overflow-x: auto;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.dataTable th {
+  background: #1a1a1a;
+  color: #888;
+  font-weight: 600;
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.registered {
+  background: #2d3748;
+  color: #a0aec0;
+}
+
+.subscribed {
+  background: #2c5282;
+  color: #90cdf4;
+}
+
+.paid {
+  background: #276749;
+  color: #9ae6b4;
+}
+
+.pending {
+  background: #744210;
+  color: #fbd38d;
+}
+
+/* Earnings Tab */
+.earningsSummary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.earningsCard {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.earningsValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e50914;
+}
+
+/* Materials Tab */
+.materialsIntro {
+  margin-bottom: 2rem;
+}
+
+.materialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.materialCard {
+  background: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.materialPreview {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+
+.bannerPlaceholder {
+  color: #888;
+  font-weight: 600;
+}
+
+.materialActions {
+  display: flex;
+  padding: 1rem;
+}
+
+.materialButton {
+  flex: 1;
+  padding: 0.75rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.materialButton:hover {
+  background: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .statsGrid,
+  .earningsSummary {
+    grid-template-columns: 1fr;
+  }
+  
+  .tabButton {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .statValue,
+  .earningsValue {
+    font-size: 1.5rem;
+  }
+  
+  .linkContainer {
+    flex-direction: column;
+  }
+  
+  .linkInput {
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .copyButton {
+    border-radius: 4px;
+  }
+}
+
+.settingsContainer {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.settingsSection {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: #e50914;
+  margin-bottom: 0.5rem;
+}
+
+.sectionDescription {
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup select {
+  padding: 0.75rem;
+  background: #222;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.formActions {
+  margin-top: 1rem;
+}
+
+.submitButton {
+  padding: 0.75rem 1.5rem;
+  background: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #ff1f3d;
+}
+
+.submitButton:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  background: #276749;
+  color: #9ae6b4;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .radioGroup {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+
+/* Estilos para páginas protegidas */
+.main {
+  min-height: 100vh;
+  background: #0a0a0a;
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.welcomeSection {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.welcomeTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(135deg, #FFFFFF 0%, #E11D2E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.welcomeSubtitle {
+  font-size: 1.2rem;
+  color: #CCCCCC;
+  margin: 0;
+  font-weight: 600;
+}
+
+.catalogSection {
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 2rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.categorySection {
+  margin-bottom: 3rem;
+}
+
+.categoryTitle {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #E11D2E;
+  margin: 0 0 1.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.catalogCard {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border: 1px solid #333;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.catalogCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(225, 29, 46, 0.2);
+}
+
+.cardImage {
+  height: 180px;
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="1" fill="%23E11D2E" opacity="0.3"/><circle cx="80" cy="40" r="1" fill="%23F59E0B" opacity="0.2"/><circle cx="40" cy="80" r="1" fill="%23E11D2E" opacity="0.4"/></svg>');
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(225, 29, 46, 0.4);
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.3;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cardDescription {
+  font-size: 0.95rem;
+  color: #CCCCCC;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.cardMeta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #999999;
+  font-weight: 600;
+}
+
+.cardMeta span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Barra de progresso para cursos */
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0.75rem 0;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #E11D2E 0%, #ff4f0d 100%);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Estilos para páginas administrativas */
+.adminGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.adminCard {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.adminCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(225, 29, 46, 0.2);
+}
+
+.adminCardTitle {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.adminCardDescription {
+  font-size: 1rem;
+  color: #CCCCCC;
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+}
+
+.adminButton {
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(225, 29, 46, 0.3);
+}
+
+.adminButton:hover {
+  background: linear-gradient(135deg, #B91C3C 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(225, 29, 46, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .welcomeTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.5rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .adminGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  .cardMeta {
+    gap: 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+/* Seção Categorias */
+.categoriesSection {
+  margin: 3rem 0;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.categoryButton {
+  background: linear-gradient(135deg, rgba(225, 29, 46, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
+  border: 1px solid rgba(225, 29, 46, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.categoryButton:hover {
+  background: linear-gradient(135deg, rgba(225, 29, 46, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%);
+  border-color: rgba(225, 29, 46, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(225, 29, 46, 0.3);
+}
+
+.categoryButton:active {
+  transform: translateY(-2px);
+}
+
+.categoryIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.categoryName {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.categoryDescription {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsividade para categorias */
+@media (max-width: 768px) {
+  .categoriesGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .categoryButton {
+    padding: 1.5rem;
+  }
+  
+  .categoryIcon {
+    font-size: 2.5rem;
+  }
+  
+  .categoryName {
+    font-size: 1.3rem;
+  }
+  
+  .categoryDescription {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Seção de Progresso dos Cursos */
+.coursesProgressSection {
+  margin: 3rem 0;
+}
+
+.coursesProgressList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.courseProgressCard {
+  background: linear-gradient(135deg, rgba(225, 29, 46, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
+  border: 1px solid rgba(225, 29, 46, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.courseProgressCard:hover {
+  background: linear-gradient(135deg, rgba(225, 29, 46, 0.15) 0%, rgba(0, 0, 0, 0.9) 100%);
+  border-color: rgba(225, 29, 46, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(225, 29, 46, 0.2);
+}
+
+.courseInfo {
+  flex: 1;
+}
+
+.courseName {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.currentChapter {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.courseMeta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.courseMeta span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.courseProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-width: 200px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #E11D2E 0%, #FF4757 100%);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.continueButton {
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.continueButton:hover {
+  background: linear-gradient(135deg, #FF4757 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(225, 29, 46, 0.4);
+}
+
+.continueButton:active {
+  transform: translateY(0);
+}
+
+/* Responsividade para progresso dos cursos */
+@media (max-width: 768px) {
+  .courseProgressCard {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .courseProgress {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .courseMeta {
+    gap: 1rem;
+  }
+  
+  .courseMeta span {
+    font-size: 0.8rem;
+  }
+  
+  .courseName {
+    font-size: 1.2rem;
+  }
+  
+  .currentChapter {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Welcome Section */
+.welcomeSection {
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.welcomeTitle {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.welcomeSubtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Catálogo com Preview */
+.catalogPreviewSection {
+  margin: 3rem 0;
+}
+
+.categoryPreview {
+  margin-bottom: 4rem;
+}
+
+.categoryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.viewAllButton {
+  background: linear-gradient(135deg, #E11D2E 0%, #B91C3C 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.viewAllButton:hover {
+  background: linear-gradient(135deg, #FF4757 0%, #E11D2E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(225, 29, 46, 0.4);
+}
+
+.previewGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Responsividade para preview grid */
+@media (max-width: 768px) {
+  .previewGrid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .categoryHeader {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .viewAllButton {
+    width: 100%;
+  }
+  
+  .welcomeTitle {
+    font-size: 2rem;
+  }
+  
+  .welcomeSubtitle {
+    font-size: 1rem;
+  }
+}
+
+
+/* Módulo de Capítulos - Kit Envato */
+.chaptersModuleSection {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.chaptersModuleContainer {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.favoriteButton {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.favoriteButton:hover {
+  background: rgba(225, 29, 46, 0.2);
+  border-color: rgba(225, 29, 46, 0.4);
+}
+
+.chaptersTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
+.chaptersList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chapterItem {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chapterItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.chapterItem.currentChapter {
+  background: rgba(225, 29, 46, 0.2);
+  border-color: rgba(225, 29, 46, 0.5);
+}
+
+.chapterTime {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #E11D2E;
+  margin-bottom: 0.5rem;
+}
+
+.chapterTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Responsividade para módulo de capítulos */
+@media (max-width: 768px) {
+  .chaptersModuleContainer {
+    max-width: 100%;
+    padding: 1.5rem;
+    margin: 0 1rem;
+  }
+  
+  .chaptersTitle {
+    font-size: 1.5rem;
+  }
+  
+  .chapterItem {
+    padding: 1rem;
+  }
+  
+  .chapterTime {
+    font-size: 0.9rem;
+  }
+  
+  .chapterTitle {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Módulo de Capítulos dentro dos Cards de Curso */
+.chaptersModuleContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+}
+
+.chaptersTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.chaptersList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chapterItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.chapterItem:hover {
+  background: rgba(220, 38, 38, 0.1);
+  border-color: rgba(220, 38, 38, 0.3);
+  transform: translateX(4px);
+}
+
+.chapterItem.currentChapter {
+  background: rgba(220, 38, 38, 0.2);
+  border-color: #dc2626;
+}
+
+.chapterTime {
+  font-size: 14px;
+  font-weight: bold;
+  color: #dc2626;
+  min-width: 60px;
+  margin-right: 16px;
+}
+
+.chapterTitle {
+  font-size: 14px;
+  color: #ffffff;
+  flex: 1;
+}
+
+.currentChapter .chapterTitle {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+/* Responsividade para módulo de capítulos */
+@media (max-width: 768px) {
+  .chaptersModuleContainer {
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  .chaptersTitle {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .chapterItem {
+    padding: 10px 12px;
+  }
+  
+  .chapterTime {
+    font-size: 12px;
+    min-width: 50px;
+    margin-right: 12px;
+  }
+  
+  .chapterTitle {
+    font-size: 13px;
+  }
+}
+
+
+
+/* Seção Atividades Recentes */
+.recentActivitiesSection {
+  margin: 3rem 0;
+  padding: 0 1rem;
+}
+
+.activityCourse {
+  background: linear-gradient(135deg, rgba(139, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
+  border: 1px solid rgba(139, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.activityCourse:hover {
+  border-color: rgba(139, 0, 0, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(139, 0, 0, 0.2);
+}
+
+.courseHeader {
+  margin-bottom: 1.5rem;
+}
+
+.activityCourse .courseName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.activityCourse .currentChapter {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.activityCourse .courseMeta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.activityCourse .courseMeta span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.activityCourse .courseProgress {
+  margin-bottom: 2rem;
+}
+
+.activityCourse .progressBar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.activityCourse .progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #8B0000 0%, #DC143C 100%);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.activityCourse .continueButton {
+  background: linear-gradient(135deg, #8B0000 0%, #DC143C 100%);
+  color: #FFFFFF;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.activityCourse .continueButton:hover {
+  background: linear-gradient(135deg, #A00000 0%, #FF1744 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(139, 0, 0, 0.4);
+}
+
+/* Responsividade para Atividades Recentes */
+@media (max-width: 768px) {
+  .activityCourse {
+    padding: 1.5rem;
+  }
+  
+  .activityCourse .courseName {
+    font-size: 1.25rem;
+  }
+  
+  .activityCourse .courseMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .activityCourse .continueButton {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+
+/* Cards Cinematográficos - Estilo Pôster de Filme */
+.moviePosterCard {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.moviePosterCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(139, 0, 0, 0.4);
+}
+
+.posterContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/3; /* Proporção clássica de pôster de filme */
+  overflow: hidden;
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.moviePosterCard:hover .posterImage {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.posterOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 30%,
+    rgba(0, 0, 0, 0.8) 70%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+  padding: 2rem 1.5rem 1.5rem;
+  color: #FFFFFF;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.moviePosterCard:hover .posterOverlay {
+  background: linear-gradient(
+    transparent 0%,
+    rgba(139, 0, 0, 0.2) 20%,
+    rgba(139, 0, 0, 0.6) 60%,
+    rgba(139, 0, 0, 0.9) 100%
+  );
+}
+
+.posterTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+}
+
+.posterMeta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+
+.posterMeta span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Grid para pôsteres cinematográficos */
+.previewGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Sobrescrever grid quando há pôsteres cinematográficos */
+.categoryPreview .previewGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Paletas de cores por fileira */
+.categoryPreview:nth-child(1) .moviePosterCard:hover {
+  box-shadow: 0 12px 40px rgba(139, 0, 0, 0.4); /* Vermelho */
+}
+
+.categoryPreview:nth-child(2) .moviePosterCard:hover {
+  box-shadow: 0 12px 40px rgba(0, 100, 139, 0.4); /* Azul */
+}
+
+.categoryPreview:nth-child(3) .moviePosterCard:hover {
+  box-shadow: 0 12px 40px rgba(139, 100, 0, 0.4); /* Dourado */
+}
+
+/* Responsividade para pôsteres */
+@media (max-width: 768px) {
+  .previewGrid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  
+  .posterTitle {
+    font-size: 0.95rem;
+  }
+  
+  .posterMeta {
+    font-size: 0.75rem;
+    gap: 0.5rem;
+  }
+  
+  .posterOverlay {
+    padding: 1.5rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .previewGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .posterTitle {
+    font-size: 0.85rem;
+    line-height: 1.1;
+  }
+  
+  .posterMeta {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+

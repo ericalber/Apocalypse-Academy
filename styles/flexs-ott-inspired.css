@@ -1,0 +1,555 @@
+/* Flexs OTT Inspired Design - Apocalypse Academy */
+
+/* Importar Poppins como base e sobrescrever com nossas fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Grid Master - Layout Global Unificado */
+.grid-master {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Responsividade do Grid Master */
+@media (max-width: 768px) {
+  .grid-master {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-master {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
+/* Layout OTT Streaming Style */
+.ott-container {
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+  min-height: 100vh;
+  color: #FFFFFF;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+/* Hero Section OTT */
+.ott-hero {
+  position: relative;
+  height: 70vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  ), url('/images/flexs-ott-reference.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ott-hero-content {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.ott-hero-title {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #FFFFFF 0%, #E11D2E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ott-hero-subtitle {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Cards OTT Style */
+.ott-card {
+  background: linear-gradient(145deg, #1A1A1A 0%, #0F0F0F 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ott-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(225, 29, 46, 0.1) 0%,
+    transparent 50%,
+    rgba(225, 29, 46, 0.05) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ott-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(225, 29, 46, 0.3);
+  border-color: rgba(225, 29, 46, 0.5);
+}
+
+.ott-card:hover::before {
+  opacity: 1;
+}
+
+/* Imagem do Card OTT */
+.ott-card-image {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.ott-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.ott-card:hover .ott-card-image img {
+  transform: scale(1.1);
+}
+
+/* Overlay de Play */
+.ott-card-play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: rgba(225, 29, 46, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.ott-card:hover .ott-card-play-overlay {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.ott-card-play-overlay::before {
+  content: '▶';
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  margin-left: 3px;
+}
+
+/* Conteúdo do Card */
+.ott-card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.ott-card-title {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.3 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ott-card-description {
+  font-family: 'Inter', 'Poppins', sans-serif !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin-bottom: 1rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Metadados do Card */
+.ott-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ott-card-duration,
+.ott-card-quality,
+.ott-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.ott-card-quality {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Botões OTT */
+.ott-btn {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  padding: 12px 24px !important;
+  border: none !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.ott-btn-primary {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 12px rgba(225, 29, 46, 0.3) !important;
+}
+
+.ott-btn-primary:hover {
+  background: linear-gradient(135deg, #C41E3A 0%, #A01E3A 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(225, 29, 46, 0.4) !important;
+}
+
+.ott-btn-secondary {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.ott-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Seções OTT */
+.ott-section {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.ott-section-title {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.ott-section-subtitle {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Carrossel OTT */
+.ott-carousel {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.ott-carousel-container {
+  display: flex;
+  gap: 1.5rem;
+  transition: transform 0.4s ease;
+  padding: 1rem 0;
+}
+
+.ott-carousel-item {
+  flex: 0 0 300px;
+  height: auto;
+}
+
+/* Controles do Carrossel */
+.ott-carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.ott-carousel-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.ott-carousel-btn:hover {
+  background: rgba(225, 29, 46, 0.8);
+  border-color: #E11D2E;
+  transform: scale(1.1);
+}
+
+/* Badges OTT */
+.ott-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.ott-badge-new {
+  background: linear-gradient(135deg, #00C851 0%, #007E33 100%);
+  color: #FFFFFF;
+}
+
+.ott-badge-popular {
+  background: linear-gradient(135deg, #FF6900 0%, #CC5500 100%);
+  color: #FFFFFF;
+}
+
+.ott-badge-premium {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #000000;
+}
+
+.ott-badge-4k {
+  background: linear-gradient(135deg, #E11D2E 0%, #C41E3A 100%);
+  color: #FFFFFF;
+}
+
+/* Navegação OTT */
+.ott-nav {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.ott-nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ott-nav-logo {
+  font-family: 'Bebas Neue', 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ott-nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.ott-nav-item {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ott-nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.ott-nav-link:hover,
+.ott-nav-link.active {
+  color: #E11D2E;
+}
+
+.ott-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #E11D2E;
+  transition: width 0.3s ease;
+}
+
+.ott-nav-link:hover::after,
+.ott-nav-link.active::after {
+  width: 100%;
+}
+
+/* Footer OTT */
+.ott-footer {
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+}
+
+.ott-footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.ott-footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ott-footer-social-link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.ott-footer-social-link:hover {
+  background: #E11D2E;
+  transform: translateY(-3px);
+}
+
+/* Responsividade OTT */
+@media (max-width: 768px) {
+  .ott-hero {
+    height: 60vh;
+  }
+  
+  .ott-hero-title {
+    font-size: clamp(2rem, 10vw, 4rem);
+  }
+  
+  .ott-nav-menu {
+    display: none;
+  }
+  
+  .ott-carousel-item {
+    flex: 0 0 250px;
+  }
+  
+  .ott-card-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ott-section {
+    padding: 2rem 0;
+  }
+  
+  .ott-carousel-item {
+    flex: 0 0 200px;
+  }
+  
+  .ott-card-image {
+    height: 180px;
+  }
+}
+

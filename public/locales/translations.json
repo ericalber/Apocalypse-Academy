@@ -1,0 +1,161 @@
+{
+  "en": {
+    "navigation": {
+      "home": "HOME",
+      "documentaries": "DOCUMENTARIES",
+      "courses": "COURSES",
+      "magazines": "MAGAZINES",
+      "devotionals": "DEVOTIONALS",
+      "community": "COMMUNITY",
+      "blog": "BLOG",
+      "about": "ABOUT",
+      "ebooks": "EBOOKS",
+      "login": "LOGIN"
+    },
+    "footer": {
+      "tagline": "The last academy before the end",
+      "quickLinks": "Quick Links",
+      "resources": "Resources",
+      "legal": "Legal",
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "contact": "Contact",
+      "allRightsReserved": "All rights reserved",
+      "poweredBy": "Powered by Eric Alberto"
+    },
+    "home": {
+      "heroTitle": "THE LAST ACADEMY BEFORE THE END",
+      "heroSubtitle": "Discover the truth through documentaries, courses and exclusive content about eschatology, geopolitics and cultural warfare.",
+      "hero": {
+        "title": "THE LAST ACADEMY BEFORE THE END",
+        "subtitle": "Discover the truth through documentaries, courses and exclusive content about eschatology, geopolitics and cultural warfare."
+      },
+      "startNow": "START NOW",
+      "whenSystemFails": "WHEN THE SYSTEM FAILS, TRUTH WILL REMAIN HERE."
+    },
+    "documentaries": {
+      "title": "FEATURED DOCUMENTARIES",
+      "watch": "Watch"
+    },
+    "courses": {
+      "title": "FEATURED COURSES",
+      "enroll": "Enroll"
+    },
+    "ebooks": {
+      "title": "APOCALYPSE ACADEMY EBOOKS",
+      "subtitle": "Prophetic knowledge for the last days",
+      "filterByCategory": "Filter by Category",
+      "all": "All",
+      "buyDirect": "Buy Direct",
+      "buyOnAmazon": "Buy on Amazon",
+      "viewDetails": "View Details",
+      "by": "by"
+    }
+  },
+  "pt": {
+    "navigation": {
+      "home": "INÍCIO",
+      "documentaries": "DOCUMENTÁRIOS",
+      "courses": "CURSOS",
+      "magazines": "REVISTAS",
+      "devotionals": "DEVOCIONAIS",
+      "community": "COMUNIDADE",
+      "blog": "BLOG",
+      "about": "SOBRE",
+      "ebooks": "EBOOKS",
+      "login": "ENTRAR"
+    },
+    "footer": {
+      "tagline": "A última academia antes do fim",
+      "quickLinks": "Links Rápidos",
+      "resources": "Recursos",
+      "legal": "Legal",
+      "termsOfUse": "Termos de Uso",
+      "privacyPolicy": "Política de Privacidade",
+      "contact": "Contato",
+      "allRightsReserved": "Todos os direitos reservados",
+      "poweredBy": "Powered by Eric Alberto"
+    },
+    "home": {
+      "heroTitle": "REVELAÇÕES PROIBIDAS PARA OS ÚLTIMOS DIAS",
+      "heroSubtitle": "Acesse conhecimento exclusivo que as elites não querem que você saiba: documentários impactantes, cursos reveladores e conteúdos que expõem a verdade sobre o fim dos tempos.",
+      "hero": {
+        "title": "REVELAÇÕES PROIBIDAS PARA OS ÚLTIMOS DIAS",
+        "subtitle": "Acesse conhecimento exclusivo que as elites não querem que você saiba: documentários impactantes, cursos reveladores e conteúdos que expõem a verdade sobre o fim dos tempos."
+      },
+      "startNow": "DESCUBRA AGORA",
+      "whenSystemFails": "QUANDO O SISTEMA ENTRAR EM COLAPSO, APENAS OS PREPARADOS SOBREVIVERÃO."
+    },
+    "documentaries": {
+      "title": "DOCUMENTÁRIOS EM DESTAQUE",
+      "watch": "Assistir"
+    },
+    "courses": {
+      "title": "CURSOS EM DESTAQUE",
+      "enroll": "Matricular-se"
+    },
+    "ebooks": {
+      "title": "EBOOKS APOCALYPSE ACADEMY",
+      "subtitle": "Conhecimento profético para os últimos dias",
+      "filterByCategory": "Filtrar por Categoria",
+      "all": "Todos",
+      "buyDirect": "Comprar Direto",
+      "buyOnAmazon": "Comprar na Amazon",
+      "viewDetails": "Ver Detalhes",
+      "by": "por"
+    }
+  },
+  "es": {
+    "navigation": {
+      "home": "INICIO",
+      "documentaries": "DOCUMENTALES",
+      "courses": "CURSOS",
+      "magazines": "REVISTAS",
+      "devotionals": "DEVOCIONALES",
+      "community": "COMUNIDAD",
+      "blog": "BLOG",
+      "about": "SOBRE",
+      "ebooks": "EBOOKS",
+      "login": "ENTRAR"
+    },
+    "footer": {
+      "tagline": "La última academia antes del fin",
+      "quickLinks": "Enlaces Rápidos",
+      "resources": "Recursos",
+      "legal": "Legal",
+      "termsOfUse": "Términos de Uso",
+      "privacyPolicy": "Política de Privacidad",
+      "contact": "Contacto",
+      "allRightsReserved": "Todos los derechos reservados",
+      "poweredBy": "Powered by Eric Alberto"
+    },
+    "home": {
+      "heroTitle": "LA ÚLTIMA ACADEMIA ANTES DEL FIN",
+      "heroSubtitle": "Descubre la verdad a través de documentales, cursos y contenidos exclusivos sobre escatología, geopolítica y guerra cultural.",
+      "hero": {
+        "title": "LA ÚLTIMA ACADEMIA ANTES DEL FIN",
+        "subtitle": "Descubre la verdad a través de documentales, cursos y contenidos exclusivos sobre escatología, geopolítica y guerra cultural."
+      },
+      "startNow": "COMIENZA AHORA",
+      "whenSystemFails": "CUANDO EL SISTEMA FALLE, AQUÍ AÚN QUEDARÁ VERDAD."
+    },
+    "documentaries": {
+      "title": "DOCUMENTALES DESTACADOS",
+      "watch": "Ver"
+    },
+    "courses": {
+      "title": "CURSOS DESTACADOS",
+      "enroll": "Inscribirse"
+    },
+    "ebooks": {
+      "title": "EBOOKS APOCALYPSE ACADEMY",
+      "subtitle": "Conocimiento profético para los últimos días",
+      "filterByCategory": "Filtrar por Categoría",
+      "all": "Todos",
+      "buyDirect": "Comprar Directo",
+      "buyOnAmazon": "Comprar en Amazon",
+      "viewDetails": "Ver Detalles",
+      "by": "por"
+    }
+  }
+}

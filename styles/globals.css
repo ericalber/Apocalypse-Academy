@@ -1,0 +1,358 @@
+/* Importar Fontes Premium */
+@import url('./fonts.css');
+
+/* Reset e estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-background: #05070d;
+  --color-background-secondary: #0f1119;
+  --color-surface: #161922;
+  --color-surface-elevated: #1d212b;
+  --color-surface-border: rgba(229, 9, 20, 0.2);
+  --color-primary: #e50914;
+  --color-primary-hover: #ff1f3d;
+  --color-text-primary: #f5f7fa;
+  --color-text-secondary: #c1c6d0;
+  --color-text-muted: #7b7f8c;
+  --color-accent: #b20710;
+  --color-gradient: linear-gradient(135deg, #e50914 0%, #b20710 55%, #ff4d0d 100%);
+  --transition-default: all 0.3s ease;
+  --grid-max-width: 1400px;
+  --grid-padding: 40px;
+  --grid-gap: 24px;
+  --grid-columns: 12;
+}
+
+
+html, body {
+  font-family: 'Robusto', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: radial-gradient(circle at top left, rgba(229, 9, 20, 0.12), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(255, 79, 13, 0.08), transparent 60%),
+    var(--color-background);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* Grid Mestre Responsivo */
+.grid-container {
+  width: 100%;
+  max-width: var(--grid-max-width);
+  margin: 0 auto;
+  padding: 0 var(--grid-padding);
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  gap: var(--grid-gap);
+  width: 100%;
+}
+
+.grid-col-1 { grid-column: span 1; }
+.grid-col-2 { grid-column: span 2; }
+.grid-col-3 { grid-column: span 3; }
+.grid-col-4 { grid-column: span 4; }
+.grid-col-6 { grid-column: span 6; }
+.grid-col-8 { grid-column: span 8; }
+.grid-col-12 { grid-column: span 12; }
+
+/* Links com paleta correta */
+a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: var(--transition-default);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+a:visited {
+  color: var(--color-text-primary);
+}
+
+a:active {
+  color: var(--color-primary);
+}
+
+/* Links específicos para navegação */
+.nav-link {
+  color: var(--color-text-primary) !important;
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: var(--color-primary) !important;
+}
+
+.nav-link:visited {
+  color: var(--color-text-primary) !important;
+}
+
+/* Links de ação/CTA */
+.cta-link {
+  color: var(--color-primary) !important;
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+.cta-link:hover {
+  color: var(--color-primary-hover) !important;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Tipografia Hierárquica */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Fruitella', 'Arial Black', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: 'Albercio', 'Arial Narrow', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: 'Robusto', 'Arial', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: 'Robusto', 'Arial', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Efeito de texto cinematográfico */
+.cinematic-text {
+  font-family: 'Fruitella', 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 
+    0 0 10px rgba(225, 29, 46, 0.5),
+    0 0 20px rgba(225, 29, 46, 0.3);
+}
+
+.premium-text {
+  font-family: 'Albercio', 'Arial Narrow', sans-serif;
+  background: linear-gradient(45deg, #FFFFFF, #CCCCCC, #FFFFFF);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Containers */
+.container {
+  width: 100%;
+  max-width: var(--grid-max-width);
+  margin: 0 auto;
+  padding: 0 var(--grid-padding);
+}
+
+/* Cards */
+.content-card {
+  background-color: var(--color-background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: var(--transition-default);
+}
+
+.content-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Botões */
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-family: 'Ezra', 'Arial', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-default);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(225, 29, 46, 0.3);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--color-text-secondary);
+  color: var(--color-text-primary);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-text-primary);
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Gradientes e overlays */
+.overlay-gradient {
+  background: linear-gradient(to top, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 0.7) 50%, rgba(10, 10, 10, 0.4) 100%);
+}
+
+.card-overlay {
+  background: linear-gradient(to top, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 0.5) 60%, rgba(10, 10, 10, 0) 100%);
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Media queries para responsividade do grid mestre */
+@media (max-width: 1024px) {
+  :root {
+    --grid-padding: 24px;
+    --grid-gap: 20px;
+  }
+  
+  .container {
+    padding: 0 24px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --grid-padding: 16px;
+    --grid-gap: 16px;
+    --grid-columns: 6;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .grid-row {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .grid-col-1 { grid-column: span 1; }
+  .grid-col-2 { grid-column: span 2; }
+  .grid-col-3 { grid-column: span 3; }
+  .grid-col-4 { grid-column: span 4; }
+  .grid-col-6 { grid-column: span 6; }
+  .grid-col-8 { grid-column: span 6; }
+  .grid-col-12 { grid-column: span 6; }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --grid-padding: 12px;
+    --grid-gap: 12px;
+    --grid-columns: 4;
+  }
+  
+  html, body {
+    font-size: 14px;
+  }
+  
+  .container {
+    padding: 0 12px;
+  }
+  
+  .grid-row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grid-col-1 { grid-column: span 1; }
+  .grid-col-2 { grid-column: span 2; }
+  .grid-col-3 { grid-column: span 3; }
+  .grid-col-4 { grid-column: span 4; }
+  .grid-col-6 { grid-column: span 4; }
+  .grid-col-8 { grid-column: span 4; }
+  .grid-col-12 { grid-column: span 4; }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  .cinematic-text {
+    letter-spacing: 2px;
+  }
+}

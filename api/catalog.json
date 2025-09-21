@@ -1,0 +1,373 @@
+{
+  "courses": [
+    {
+      "id": "curso-escatologia-avancada",
+      "slug": "escatologia-biblica-avancada",
+      "title": "Escatologia Bíblica Avançada",
+      "description": "Estudo completo sobre os últimos tempos, incluindo análise das profecias de Daniel e Apocalipse.",
+      "instructor": "Eric Alberto da Cruz",
+      "level": "Avançado",
+      "duration": 7200,
+      "price": {
+        "BRL": 247,
+        "USD": 47
+      },
+      "badges": ["NOVO", "4K", "POPULAR"],
+      "category": "Escatologia",
+      "language": "pt-BR",
+      "marketAccess": ["BR", "US"],
+      "trailer": {
+        "distribution": "youtube_public",
+        "youtube": {
+          "videoId": "dQw4w9WgXcQ",
+          "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        "hls": "/vod/hls/escatologia/trailer/master.m3u8",
+        "dash": "/vod/dash/escatologia/trailer/manifest.mpd",
+        "poster": "/vod/metadata/escatologia/trailer.jpg",
+        "public": true
+      },
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Fundamentos da Escatologia",
+          "description": "Introdução aos conceitos fundamentais da escatologia bíblica.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "m1l1",
+              "title": "Panorama Profético",
+              "description": "Uma visão geral das profecias bíblicas e sua relevância para os dias atuais.",
+              "durationSec": 1580,
+              "order": 1,
+              "distribution": "platform_private",
+              "platform": {
+                "hls": "/secure/vod/hls/escatologia/m1l1/master.m3u8",
+                "dash": "/secure/vod/dash/escatologia/m1l1/manifest.mpd",
+                "drmPolicy": "streaming",
+                "qualityCap": "2160p",
+                "accessLevel": "course"
+              },
+              "poster": "/vod/metadata/escatologia/m1l1.jpg",
+              "captions": [
+                {
+                  "lang": "pt-BR",
+                  "label": "Português",
+                  "url": "/vod/metadata/escatologia/m1l1.pt.vtt"
+                },
+                {
+                  "lang": "en-US",
+                  "label": "English",
+                  "url": "/vod/metadata/escatologia/m1l1.en.vtt"
+                }
+              ],
+              "chapters": "/vod/metadata/escatologia/m1l1.chapters.vtt",
+              "freePreview": false,
+              "downloadable": false,
+              "completed": false
+            },
+            {
+              "id": "m1l2",
+              "title": "Linha do Tempo Profética",
+              "description": "Compreendendo a cronologia dos eventos proféticos.",
+              "durationSec": 1820,
+              "order": 2,
+              "distribution": "platform_private",
+              "platform": {
+                "hls": "/secure/vod/hls/escatologia/m1l2/master.m3u8",
+                "dash": "/secure/vod/dash/escatologia/m1l2/manifest.mpd",
+                "drmPolicy": "streaming",
+                "qualityCap": "2160p",
+                "accessLevel": "course"
+              },
+              "poster": "/vod/metadata/escatologia/m1l2.jpg",
+              "captions": [
+                {
+                  "lang": "pt-BR",
+                  "label": "Português",
+                  "url": "/vod/metadata/escatologia/m1l2.pt.vtt"
+                }
+              ],
+              "chapters": "/vod/metadata/escatologia/m1l2.chapters.vtt",
+              "freePreview": false,
+              "downloadable": false,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "m2",
+          "title": "Sinais dos Tempos",
+          "description": "Identificando os sinais proféticos na atualidade.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "m2l1",
+              "title": "Sinais Políticos e Sociais",
+              "description": "Analisando os eventos mundiais à luz das profecias bíblicas.",
+              "durationSec": 1920,
+              "order": 1,
+              "distribution": "platform_private",
+              "platform": {
+                "hls": "/secure/vod/hls/escatologia/m2l1/master.m3u8",
+                "dash": "/secure/vod/dash/escatologia/m2l1/manifest.mpd",
+                "drmPolicy": "streaming",
+                "qualityCap": "2160p",
+                "accessLevel": "course"
+              },
+              "poster": "/vod/metadata/escatologia/m2l1.jpg",
+              "captions": [
+                {
+                  "lang": "pt-BR",
+                  "label": "Português",
+                  "url": "/vod/metadata/escatologia/m2l1.pt.vtt"
+                }
+              ],
+              "chapters": "/vod/metadata/escatologia/m2l1.chapters.vtt",
+              "freePreview": false,
+              "downloadable": false,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Apostila Completa - Escatologia Avançada",
+          "url": "/resources/escatologia/apostila-completa.pdf",
+          "size": "15.2 MB"
+        },
+        {
+          "type": "audio",
+          "title": "Áudios das Aulas (MP3)",
+          "url": "/resources/escatologia/audios.zip",
+          "size": "245 MB"
+        }
+      ],
+      "stats": {
+        "totalStudents": 1247,
+        "averageRating": 4.9,
+        "totalReviews": 89,
+        "completionRate": 0.78
+      },
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-08-20T15:30:00Z"
+    },
+    {
+      "id": "curso-preparacao-tempos-finais",
+      "slug": "preparacao-para-os-tempos-finais",
+      "title": "Preparação para os Tempos Finais",
+      "description": "Guia prático para se preparar espiritualmente e fisicamente para os últimos dias.",
+      "instructor": "Eric Alberto da Cruz",
+      "level": "Básico",
+      "duration": 5400,
+      "price": {
+        "BRL": 147,
+        "USD": 27
+      },
+      "badges": ["BÁSICO", "PRÁTICO"],
+      "category": "Preparação",
+      "language": "pt-BR",
+      "marketAccess": ["BR", "US"],
+      "trailer": {
+        "distribution": "youtube_public",
+        "youtube": {
+          "videoId": "dQw4w9WgXcQ",
+          "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        "hls": "/vod/hls/preparacao/trailer/master.m3u8",
+        "dash": "/vod/dash/preparacao/trailer/manifest.mpd",
+        "poster": "/vod/metadata/preparacao/trailer.jpg",
+        "public": true
+      },
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Preparação Espiritual",
+          "description": "Fortalecendo a fé para os desafios dos últimos tempos.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "m1l1",
+              "title": "Oração e Jejum",
+              "description": "A importância da oração e jejum na preparação espiritual.",
+              "durationSec": 1380,
+              "order": 1,
+              "distribution": "platform_private",
+              "platform": {
+                "hls": "/secure/vod/hls/preparacao/m1l1/master.m3u8",
+                "dash": "/secure/vod/dash/preparacao/m1l1/manifest.mpd",
+                "drmPolicy": "streaming",
+                "qualityCap": "1080p",
+                "accessLevel": "course"
+              },
+              "poster": "/vod/metadata/preparacao/m1l1.jpg",
+              "captions": [
+                {
+                  "lang": "pt-BR",
+                  "label": "Português",
+                  "url": "/vod/metadata/preparacao/m1l1.pt.vtt"
+                }
+              ],
+              "chapters": "/vod/metadata/preparacao/m1l1.chapters.vtt",
+              "freePreview": true,
+              "downloadable": false,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Guia de Preparação",
+          "url": "/resources/preparacao/guia-preparacao.pdf",
+          "size": "8.5 MB"
+        }
+      ],
+      "stats": {
+        "totalStudents": 892,
+        "averageRating": 4.7,
+        "totalReviews": 67,
+        "completionRate": 0.85
+      },
+      "createdAt": "2024-02-10T14:00:00Z",
+      "updatedAt": "2024-08-18T09:15:00Z"
+    },
+    {
+      "id": "curso-geopolitica-profecia",
+      "slug": "geopolitica-e-profecia",
+      "title": "Geopolítica e Profecia",
+      "description": "Como os eventos geopolíticos atuais se alinham com as profecias bíblicas dos últimos tempos.",
+      "instructor": "Eric Alberto da Cruz",
+      "level": "Intermediário",
+      "duration": 6300,
+      "price": {
+        "BRL": 197,
+        "USD": 37
+      },
+      "badges": ["ATUALIZADO", "GEOPOLÍTICA"],
+      "category": "Geopolítica",
+      "language": "pt-BR",
+      "marketAccess": ["BR", "US"],
+      "trailer": {
+        "distribution": "youtube_public",
+        "youtube": {
+          "videoId": "dQw4w9WgXcQ",
+          "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        "hls": "/vod/hls/geopolitica/trailer/master.m3u8",
+        "dash": "/vod/dash/geopolitica/trailer/manifest.mpd",
+        "poster": "/vod/metadata/geopolitica/trailer.jpg",
+        "public": true
+      },
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Cenário Mundial Atual",
+          "description": "Análise do contexto geopolítico contemporâneo.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "m1l1",
+              "title": "Tensões no Oriente Médio",
+              "description": "Como as tensões atuais no Oriente Médio se relacionam com as profecias.",
+              "durationSec": 1680,
+              "order": 1,
+              "distribution": "platform_private",
+              "platform": {
+                "hls": "/secure/vod/hls/geopolitica/m1l1/master.m3u8",
+                "dash": "/secure/vod/dash/geopolitica/m1l1/manifest.mpd",
+                "drmPolicy": "streaming",
+                "qualityCap": "2160p",
+                "accessLevel": "course"
+              },
+              "poster": "/vod/metadata/geopolitica/m1l1.jpg",
+              "captions": [
+                {
+                  "lang": "pt-BR",
+                  "label": "Português",
+                  "url": "/vod/metadata/geopolitica/m1l1.pt.vtt"
+                }
+              ],
+              "chapters": "/vod/metadata/geopolitica/m1l1.chapters.vtt",
+              "freePreview": false,
+              "downloadable": false,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Atlas Profético",
+          "url": "/resources/geopolitica/atlas-profetico.pdf",
+          "size": "22.1 MB"
+        }
+      ],
+      "stats": {
+        "totalStudents": 634,
+        "averageRating": 4.8,
+        "totalReviews": 45,
+        "completionRate": 0.72
+      },
+      "createdAt": "2024-03-05T11:30:00Z",
+      "updatedAt": "2024-08-22T16:45:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "escatologia",
+      "name": "Escatologia",
+      "description": "Estudo dos últimos tempos e eventos proféticos",
+      "color": "#E11D2E",
+      "icon": "📖"
+    },
+    {
+      "id": "preparacao",
+      "name": "Preparação",
+      "description": "Preparação prática e espiritual para os tempos finais",
+      "color": "#FF6B35",
+      "icon": "🛡️"
+    },
+    {
+      "id": "geopolitica",
+      "name": "Geopolítica",
+      "description": "Análise geopolítica à luz das profecias bíblicas",
+      "color": "#4ECDC4",
+      "icon": "🌍"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "eric-alberto",
+      "name": "Eric Alberto da Cruz",
+      "title": "Fundador da Apocalypse Academy",
+      "bio": "Especialista em escatologia bíblica e análise profética dos eventos contemporâneos.",
+      "avatar": "/images/instructors/eric-alberto.jpg",
+      "credentials": [
+        "Bacharel em Teologia",
+        "Especialista em Escatologia Bíblica",
+        "15+ anos de ministério"
+      ],
+      "socialMedia": {
+        "youtube": "https://youtube.com/@apocalypseacademy",
+        "instagram": "https://instagram.com/apocalypseacademy",
+        "telegram": "https://t.me/apocalypseacademy"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-08-22T16:45:00Z",
+    "totalCourses": 3,
+    "totalLessons": 4,
+    "totalDuration": 18900,
+    "supportedLanguages": ["pt-BR", "en-US"],
+    "supportedMarkets": ["BR", "US"],
+    "paymentCurrencies": ["BRL", "USD"]
+  }
+}
+

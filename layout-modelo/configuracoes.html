@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações de Afiliado | Apocalypse Academy</title>
+    <style>
+        :root {
+            --primary: #f8b700;
+            --dark: #121212;
+            --dark-light: #1a1a1a;
+            --gray: #888;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark);
+            color: var(--white);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-link {
+            color: var(--white);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .dashboard-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .success-message {
+            background: #276749;
+            color: #9ae6b4;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .settings-container {
+            background: var(--dark-light);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .settings-section {
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .section-description {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+        }
+        
+        .settings-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group select {
+            padding: 0.75rem;
+            background: #222;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: var(--white);
+        }
+        
+        .radio-group {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .radio-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .form-actions {
+            margin-top: 1rem;
+        }
+        
+        .submit-button {
+            padding: 0.75rem 1.5rem;
+            background: var(--primary);
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .submit-button:hover {
+            background: #e6a800;
+        }
+        
+        .submit-button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        
+        .footer-text {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .radio-group {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">Apocalypse Academy</a>
+            <nav class="nav-links">
+                <a href="#" class="nav-link">Início</a>
+                <a href="#" class="nav-link">Documentários</a>
+                <a href="#" class="nav-link">Cursos</a>
+                <a href="#" class="nav-link">Afiliados</a>
+                <a href="#" class="nav-link">Minha Conta</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="dashboard-title">Configurações de Afiliado</h1>
+        
+        <div class="success-message" id="success-message" style="display: none;">
+            Configurações salvas com sucesso!
+        </div>
+        
+        <div class="settings-container">
+            <div class="settings-section">
+                <h2 class="section-title">Informações de Pagamento</h2>
+                <p class="section-description">
+                    Configure como você deseja receber seus pagamentos de comissão.
+                </p>
+                
+                <form id="settings-form" class="settings-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value="João Silva"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value="joao@exemplo.com"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Método de Pagamento</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="paymentMethod"
+                                    value="pix"
+                                    checked
+                                >
+                                PIX
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="paymentMethod"
+                                    value="bank"
+                                >
+                                Transferência Bancária
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="paymentMethod"
+                                    value="credit"
+                                >
+                                Crédito na Plataforma
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" id="pix-fields">
+                        <label for="pixKey">Chave PIX</label>
+                        <input
+                            type="text"
+                            id="pixKey"
+                            name="pixKey"
+                            value="123.456.789-00"
+                            placeholder="CPF, Email, Telefone ou Chave Aleatória"
+                            required
+                        >
+                    </div>
+                    
+                    <div id="bank-fields" style="display: none;">
+                        <div class="form-group">
+                            <label for="bankName">Nome do Banco</label>
+                            <input
+                                type="text"
+                                id="bankName"
+                                name="bankName"
+                                placeholder="Ex: Banco do Brasil"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Tipo de Conta</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input
+                                        type="radio"
+                                        name="accountType"
+                                        value="checking"
+                                        checked
+                                    >
+                                    Corrente
+                                </label>
+                                <label class="radio-label">
+                                    <input
+                                        type="radio"
+                                        name="accountType"
+                                        value="savings"
+                                    >
+                                    Poupança
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="agency">Agência</label>
+                            <input
+                                type="text"
+                                id="agency"
+                                name="agency"
+                                placeholder="Ex: 1234"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accountNumber">Número da Conta</label>
+                            <input
+                                type="text"
+                                id="accountNumber"
+                                name="accountNumber"
+                                placeholder="Ex: 12345-6"
+                            >
+                        </div>
+                    </div>
+                    
+                    <h2 class="section-title">Preferências de Notificação</h2>
+                    <p class="section-description">
+                        Escolha quais notificações você deseja receber.
+                    </p>
+                    
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="newReferral"
+                                checked
+                            >
+                            Novo referido registrado
+                        </label>
+                        
+                        <label class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="newCommission"
+                                checked
+                            >
+                            Nova comissão recebida
+                        </label>
+                        
+                        <label class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="paymentReceived"
+                                checked
+                            >
+                            Pagamento realizado
+                        </label>
+                        
+                        <label class="checkbox-label">
+                            <input
+                                type="checkbox"
+                                name="promotions"
+                            >
+                            Promoções e novidades do programa de afiliados
+                        </label>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button
+                            type="submit"
+                            class="submit-button"
+                            id="submit-button"
+                        >
+                            Salvar Configurações
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Apocalypse Academy. Todos os direitos reservados. Powered by Eric Alberto</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mostrar/ocultar campos com base no método de pagamento selecionado
+        document.querySelectorAll('input[name="paymentMethod"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                if (this.value === 'pix') {
+                    document.getElementById('pix-fields').style.display = 'flex';
+                    document.getElementById('bank-fields').style.display = 'none';
+                } else if (this.value === 'bank') {
+                    document.getElementById('pix-fields').style.display = 'none';
+                    document.getElementById('bank-fields').style.display = 'block';
+                } else {
+                    document.getElementById('pix-fields').style.display = 'none';
+                    document.getElementById('bank-fields').style.display = 'none';
+                }
+            });
+        });
+        
+        // Simulação de envio do formulário
+        document.getElementById('settings-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simular carregamento
+            const submitButton = document.getElementById('submit-button');
+            submitButton.textContent = 'Salvando...';
+            submitButton.disabled = true;
+            
+            // Simular atraso de processamento
+            setTimeout(() => {
+                // Mostrar mensagem de sucesso
+                document.getElementById('success-message').style.display = 'block';
+                
+                // Restaurar botão
+                submitButton.textContent = 'Salvar Configurações';
+                submitButton.disabled = false;
+                
+                // Ocultar mensagem após alguns segundos
+                setTimeout(() => {
+                    document.getElementById('success-message').style.display = 'none';
+                }, 3000);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

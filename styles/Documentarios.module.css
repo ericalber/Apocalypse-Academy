@@ -1,0 +1,312 @@
+.heroSection {
+  position: relative;
+  height: 50vh;
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  background-image: url('/documentarios-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 0.7) 50%, rgba(18, 18, 18, 0.6) 100%);
+}
+
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Featured Section */
+.featuredSection {
+  padding: 80px 0;
+  background-color: var(--color-background);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.featuredCard {
+  position: relative;
+  height: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.featuredCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #1F1F1F;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardImage:nth-child(1) {
+  background-image: url('/doc1.jpg');
+}
+
+.cardImage:nth-child(2) {
+  background-image: url('/doc2.jpg');
+}
+
+.cardImage:nth-child(3) {
+  background-image: url('/doc3.jpg');
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(to top, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 0.8) 50%, rgba(18, 18, 18, 0) 100%);
+}
+
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+}
+
+.cardTitle {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: var(--color-text-secondary);
+}
+
+.cardMeta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.watchButton {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.watchButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+/* Categories Section */
+.categoriesSection {
+  padding: 80px 0;
+  background-color: var(--color-background-secondary);
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.categoryCard {
+  position: relative;
+  height: 180px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a2a;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+
+.categoryCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.categoryOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 18, 18, 0.6);
+  transition: all 0.3s ease;
+}
+
+.categoryCard:hover .categoryOverlay {
+  background: rgba(18, 18, 18, 0.4);
+}
+
+.categoryTitle {
+  position: relative;
+  z-index: 1;
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* All Documentaries Section */
+.allDocumentariesSection {
+  padding: 80px 0;
+  background-color: var(--color-background);
+}
+
+.documentariesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.documentaryCard {
+  background-color: var(--color-background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.documentaryCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.documentaryImage {
+  height: 200px;
+  background-color: #2a2a2a;
+  background-size: cover;
+  background-position: center;
+}
+
+.documentaryContent {
+  padding: 20px;
+}
+
+.documentaryTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+.documentaryMeta {
+  display: flex;
+  gap: 15px;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 1024px) {
+  .featuredGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .categoriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .documentariesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+  
+  .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .documentariesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    height: 40vh;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .categoriesGrid {
+    grid-template-columns: 1fr;
+  }
+}

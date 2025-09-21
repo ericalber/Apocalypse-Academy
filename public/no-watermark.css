@@ -1,0 +1,41 @@
+/* CSS to hide the "Made with Manus" button */
+.manus-watermark,
+[class*="manus-watermark"],
+[id*="manus-watermark"],
+[data-manus-watermark],
+a[href*="manus.space"],
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: fixed"][style*="right"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+/* Additional selectors to target the specific button shown in the screenshot */
+.manus-button,
+[class*="manus-button"],
+[id*="manus-button"],
+[data-manus-button],
+div:has(> span:contains("Made with Manus")),
+div:has(> img[src*="manus"]),
+div:has(> svg[class*="manus"]),
+div:has(> a:contains("Made with Manus")),
+div:has(> a:contains("Manus")) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+/* Target the specific button shown in the screenshot */
+div[style*="position: fixed"][style*="bottom: 20px"][style*="right: 20px"],
+div[style*="position: fixed"][style*="bottom: 1rem"][style*="right: 1rem"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
