@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "arquitetura-da-besta-global",
+    "title": "A Arquitetura Secreta da Besta Global",
+    "description": "As estruturas de poder ocultas que controlam o mundo e cumprem profecias milenares.",
+    "coverImage": "/poster-documentario-1.png",
+    "duration": "1h 45min",
+    "rating": "4.9",
+    "category": "Profecia"
+  },
+  {
+    "slug": "o-dossie-proibido-do-anticristo",
+    "title": "O Dossiê Proibido do Anticristo",
+    "description": "Documentos confidenciais revelam quem é o anticristo e como ele atua hoje.",
+    "coverImage": "/poster-documentario-2.png",
+    "duration": "2h 10min",
+    "rating": "4.8",
+    "category": "Profecia"
+  },
+  {
+    "slug": "inteligencia-artificial-e-apocalipse",
+    "title": "Inteligência Artificial e o Juízo Final",
+    "description": "A tecnologia que promete revolucionar o mundo também pode instaurar o controle profético anunciado.",
+    "coverImage": "/poster-documentario-3.png",
+    "duration": "1h 30min",
+    "rating": "4.7",
+    "category": "Tecnologia"
+  }
+]

@@ -1,0 +1,139 @@
+.guardSection {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.dimmedContent {
+  pointer-events: none;
+  filter: grayscale(0.35) saturate(0.8);
+  opacity: 0.55;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, rgba(7, 7, 10, 0.15) 0%, rgba(7, 7, 10, 0.75) 65%, rgba(7, 7, 10, 0.92) 100%);
+  padding: 48px clamp(16px, 4vw, 48px);
+  gap: 24px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(225, 29, 46, 0.08), transparent 55%);
+  z-index: 0;
+}
+
+.overlayContent {
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  background: rgba(12, 12, 16, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: clamp(20px, 3vw, 32px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+}
+
+.title {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+  line-height: 1.6;
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, #e11d2e 0%, #7e0f19 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(225, 29, 46, 0.35);
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(225, 29, 46, 0.45);
+}
+
+.secondaryButton {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .guardSection {
+    max-width: 100%;
+  }
+
+  .overlay {
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+
+  .overlayContent {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  .dimmedContent {
+    opacity: 0.65;
+  }
+
+  .overlay {
+    padding: 24px 16px;
+    align-items: flex-end;
+  }
+
+  .overlayContent {
+    gap: 12px;
+  }
+
+  .buttonRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

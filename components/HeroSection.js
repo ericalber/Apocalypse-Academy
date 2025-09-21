@@ -1,44 +1,39 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useAuth } from '../contexts/AuthContext';
 import styles from '../styles/components/HeroSection.module.css';
+
+const heroSlides = [
+  {
+    id: 1,
+    title: 'A Última Verdade Antes do Fim',
+    subtitle: 'Quando o sistema falhar, restará a comunidade que discerne os sinais. Assine para assistir aos dossiês completos.',
+    backgroundImage: '/poster-documentario-1.png',
+    category: 'Documentário Exclusivo',
+    duration: '2h15',
+    rating: '4.9'
+  },
+  {
+    id: 2,
+    title: 'Preparação para os Tempos Finais',
+    subtitle: 'Orientações espirituais e práticas para proteger sua família diante dos dias mais desafiadores.',
+    backgroundImage: '/poster-curso-1.png',
+    category: 'Guia Completo',
+    duration: '120 páginas',
+    rating: '5.0'
+  },
+  {
+    id: 3,
+    title: 'Decifrando os Sinais dos Tempos',
+    subtitle: 'Identifique os eventos proféticos que já estão em andamento e saiba como responder com fé.',
+    backgroundImage: '/poster-geopolitica.png',
+    category: 'Curso Premium',
+    duration: '8 módulos',
+    rating: '4.8'
+  }
+];
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const { isAuthenticated } = useAuth();
-
-  const heroSlides = [
-    {
-      id: 1,
-      title: "A Última Verdade Antes do Fim",
-      subtitle: "Quando o sistema falhar, aqui ainda restará verdade. Acesse conhecimento exclusivo que as elites não querem que você saiba.",
-      backgroundImage: "/doc-thumb-1.webp",
-      videoUrl: null, // Pode ser adicionado posteriormente
-      category: "DOCUMENTÁRIO EXCLUSIVO",
-      duration: "2h 15min",
-      rating: "4.9"
-    },
-    {
-      id: 2,
-      title: "Preparação para os Tempos Finais",
-      subtitle: "Guia prático para se preparar espiritualmente, mentalmente e fisicamente para os últimos dias.",
-      backgroundImage: "/doc-thumb-3.webp",
-      videoUrl: null,
-      category: "GUIA COMPLETO",
-      duration: "120 páginas",
-      rating: "4.9"
-    },
-    {
-      id: 3,
-      title: "Decifrando os Sinais dos Tempos",
-      subtitle: "Aprenda a identificar e interpretar os sinais proféticos que estão se cumprindo em nossa geração.",
-      backgroundImage: "/doc-thumb-2.webp",
-      videoUrl: null,
-      category: "CURSO PREMIUM",
-      duration: "8 módulos",
-      rating: "4.8"
-    }
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -60,50 +55,18 @@ const HeroSection = () => {
     setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
   };
 
-  const handleWatchNow = () => {
-    if (!isAuthenticated) {
-      // Redireciona para login mantendo a página de origem
-      window.location.href = '/entrar?redirect=' + encodeURIComponent(window.location.pathname);
-    } else {
-      // Usuário logado - pode assistir
-      window.location.href = '/documentarios';
-    }
-  };
-
-  const handleMoreInfo = () => {
-    if (!isAuthenticated) {
-      // Redireciona para assinatura mantendo a página de origem
-      window.location.href = '/assinar?redirect=' + encodeURIComponent(window.location.pathname);
-    } else {
-      // Usuário logado - mostra mais informações
-      window.location.href = '/sobre';
-    }
-  };
-
   const currentHero = heroSlides[currentSlide];
 
   return (
     <section className={`${styles.heroSection} hero`}>
       {/* Background com imagem ou vídeo */}
       <div className={`${styles.heroBackground} hero-bg`}>
-        {currentHero.videoUrl ? (
-          <video
-            className={styles.heroVideo}
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src={currentHero.videoUrl} type="video/mp4" />
-          </video>
-        ) : (
-          <div
-            className={`${styles.heroImage} hero-bg-image`}
-            style={{
-              backgroundImage: `url(${currentHero.backgroundImage})`
-            }}
-          />
-        )}
+        <div
+          className={`${styles.heroImage} hero-bg-image`}
+          style={{
+            backgroundImage: `url(${currentHero.backgroundImage})`
+          }}
+        />
         
         {/* Overlay gradiente */}
         <div className={`${styles.heroOverlay} hero-overlay`} />
@@ -131,12 +94,12 @@ const HeroSection = () => {
             {/* Botão de ação único */}
             <div className={styles.heroActions}>
               <Link
-                href={isAuthenticated ? "/dashboard" : "/assinar"}
+                href="/assinar"
                 className={styles.subscribeButton}
-                aria-label={isAuthenticated ? "Acessar conteúdo" : "Assinar"}
+                aria-label="Assine para acessar o conteúdo completo"
               >
                 <span className={styles.playIcon}>▶</span>
-                {isAuthenticated ? "Acessar Conteúdo" : "Assinar"}
+                Assinar para acessar
               </Link>
             </div>
           </div>
@@ -180,4 +143,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-

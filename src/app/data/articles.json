@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "por-que-a-igreja-precisa-falar-de-profecia",
+    "title": "Por que a igreja precisa falar de profecia hoje",
+    "category": "Opinião",
+    "excerpt": "Reflexão sobre a importância de preparar espiritualmente a igreja para os eventos que antecedem a volta de Cristo.",
+    "coverImage": "/images/Scene_01.png",
+    "publishedAt": "2024-09-10",
+    "readTime": "10 min",
+    "author": "Pr. Elias Andrade",
+    "content": [
+      "Uma parte considerável das comunidades cristãs ainda trata os livros proféticos como textos distantes, reservados para especialistas. Porém, os eventos em curso evidenciam que todos nós precisamos compreender os sinais dos tempos.",
+      "Falar de profecia não é alimentar medo, mas despertar esperança e responsabilidade. A igreja deve resgatar a postura de sentinela, anunciando a verdade e preparando vidas para permanecer firmes." 
+    ],
+    "tags": ["Igreja", "Preparação", "Esperança"]
+  },
+  {
+    "slug": "a-batalha-cultural-e-a-fe-crista",
+    "title": "A batalha cultural e a fé cristã: como responder",
+    "category": "Ensaio",
+    "excerpt": "Análise das pressões culturais recentes e caminhos bíblicos para manter firme o testemunho cristão.",
+    "coverImage": "/images/Scene_02.png",
+    "publishedAt": "2024-09-03",
+    "readTime": "9 min",
+    "author": "Dra. Luísa Ferraz",
+    "content": [
+      "Vivemos um tempo em que a narrativa dominante tenta redefinir valores absolutos. Termos como 'verdade' e 'liberdade' passam por releituras que excluem a perspectiva bíblica.",
+      "Responder a essa batalha exige postura firme, mas também misericordiosa. O objetivo não é vencer debates, e sim testemunhar Cristo com graça e verdade." 
+    ],
+    "tags": ["Cultura", "Ideologia", "Apologética"]
+  },
+  {
+    "slug": "famílias-preparadas-para-os-ultimos-tempos",
+    "title": "Famílias preparadas para os últimos tempos",
+    "category": "Família",
+    "excerpt": "Princípios práticos para fortalecer lares cristãos diante de cenários de crise e perseguição.",
+    "coverImage": "/images/Scene_04.png",
+    "publishedAt": "2024-08-25",
+    "readTime": "7 min",
+    "author": "Sarah Monteiro",
+    "content": [
+      "O lar é o primeiro campo de discipulado. Quando famílias compreendem o chamado de Deus para viverem vigilantes, a igreja se torna mais resiliente.",
+      "Preparar-se para os últimos tempos significa cultivar relacionamento com Deus, ensinar as crianças na Palavra e desenvolver planos práticos para tempos de instabilidade." 
+    ],
+    "tags": ["Família", "Discipulado", "Preparação"]
+  }
+]

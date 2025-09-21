@@ -1,37 +1,23 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/components/NewsSection.module.css';
+import newsData from '../src/app/data/news.json';
+
+const formatDate = (isoDate) => {
+  try {
+    const formatter = new Intl.DateTimeFormat('pt-BR', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric'
+    });
+    return formatter.format(new Date(isoDate));
+  } catch (error) {
+    return isoDate;
+  }
+};
 
 const NewsSection = () => {
-  const featuredNews = [
-    {
-      id: 1,
-      title: "Sinais Proféticos se Intensificam no Oriente Médio",
-      summary: "Análise dos eventos recentes que apontam para o cumprimento das profecias bíblicas sobre os últimos tempos.",
-      category: "PROFECIA",
-      date: "2 dias atrás",
-      image: "/images/news/middle-east-prophecy.jpg",
-      link: "/noticias/sinais-profeticos-oriente-medio"
-    },
-    {
-      id: 2,
-      title: "Nova Ordem Mundial: Agenda 2030 em Foco",
-      summary: "Como as políticas globais se alinham com as profecias sobre o governo mundial dos últimos dias.",
-      category: "GEOPOLÍTICA",
-      date: "4 dias atrás",
-      image: "/images/news/new-world-order.jpg",
-      link: "/noticias/nova-ordem-mundial-agenda-2030"
-    },
-    {
-      id: 3,
-      title: "Tecnologia e Controle: O Caminho para a Marca da Besta",
-      summary: "Análise das tecnologias emergentes e seu papel profético no sistema de controle global.",
-      category: "TECNOLOGIA",
-      date: "1 semana atrás",
-      image: "/images/news/technology-control.jpg",
-      link: "/noticias/tecnologia-controle-marca-besta"
-    }
-  ];
+  const featuredNews = newsData.slice(0, 3);
 
   return (
     <section id="noticias" data-section="noticias" className={styles.newsSection}>
@@ -47,10 +33,10 @@ const NewsSection = () => {
 
         <div className={`${styles.newsGrid} grid-3`}>
           {featuredNews.map((article) => (
-            <article key={article.id} className={`${styles.newsCard} card`}>
+            <article key={article.slug} className={`${styles.newsCard} card`}>
               <div className={`${styles.cardImage} card-media`}>
                 <img 
-                  src={article.image} 
+                  src={article.coverImage} 
                   alt={article.title}
                   loading="lazy"
                 />
@@ -61,20 +47,20 @@ const NewsSection = () => {
               
               <div className={`${styles.cardContent} card-body`}>
                 <h3 className={`${styles.cardTitle} card-title`}>
-                  <Link href={article.link}>
+                  <Link href={`/noticias/${article.slug}`}>
                     {article.title}
                   </Link>
                 </h3>
                 
                 <p className={`${styles.cardSummary} card-excerpt`}>
-                  {article.summary}
+                  {article.excerpt}
                 </p>
                 
                 <div className={`${styles.cardMeta} card-footer`}>
                   <span className={styles.cardDate}>
-                    {article.date}
+                    {formatDate(article.publishedAt)} · {article.readTime}
                   </span>
-                  <Link href={article.link} className={styles.readMore}>
+                  <Link href={`/noticias/${article.slug}`} className={styles.readMore}>
                     Ler mais →
                   </Link>
                 </div>
@@ -94,4 +80,3 @@ const NewsSection = () => {
 };
 
 export default NewsSection;
-

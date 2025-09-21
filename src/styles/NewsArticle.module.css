@@ -1,0 +1,128 @@
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 4vw, 32px);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: clamp(24px, 4vw, 40px) clamp(20px, 6vw, 64px) 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.breadcrumb a {
+  color: inherit;
+}
+
+.heroMedia {
+  position: relative;
+  margin: 0 clamp(20px, 6vw, 64px);
+  border-radius: 32px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 26px 56px rgba(0, 0, 0, 0.45);
+}
+
+.heroMedia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.articleBody {
+  margin: 0 clamp(20px, 6vw, 64px) clamp(64px, 10vw, 120px);
+  padding: clamp(32px, 6vw, 56px);
+  background: linear-gradient(180deg, rgba(15, 16, 26, 0.95), rgba(6, 7, 12, 0.95));
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.title {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.excerpt {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+}
+
+.content p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.78);
+  margin-bottom: 18px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.tag {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(225, 29, 46, 0.12);
+  border: 1px solid rgba(225, 29, 46, 0.35);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.backLink {
+  margin-top: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(225, 29, 46, 0.92);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.backLink:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .articleBody {
+    padding: 28px 22px;
+  }
+
+  .heroMedia {
+    margin: 0 20px;
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .articleBody {
+    margin: 0 16px 56px;
+  }
+}

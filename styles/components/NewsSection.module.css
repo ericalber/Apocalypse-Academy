@@ -67,7 +67,7 @@
 
 .cardImage {
   position: relative;
-  height: 200px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 

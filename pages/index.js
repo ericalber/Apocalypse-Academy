@@ -1,42 +1,47 @@
 import React from 'react';
-import { useAuth } from '../contexts/AuthContext';
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import NewsSection from '../components/NewsSection';
 import CoursesSection from '../components/CoursesSection';
 import EbooksSection from '../components/EbooksSection';
+import HomeLiteGuard from '../src/components/HomeLiteGuard';
+import DocumentariesPreview from '../src/components/DocumentariesPreview';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
-  const { user, isAuthenticated } = useAuth();
-  const router = useRouter();
-
-  // Removed automatic redirect logic - users should only be redirected when clicking "Entrar" button
-  // useEffect(() => {
-  //   // Se há parâmetro redirect=dashboard, redireciona para login
-  //   if (router.query.redirect === 'dashboard' && !isAuthenticated()) {
-  //     router.push('/entrar?redirect=/dashboard');
-  //   }
-  // }, [router.query.redirect, isAuthenticated, router]);
-
   return (
     <div className={styles.container}>
       <Header />
       
       {/* Hero Section - Film & Movie Streaming Style */}
       <HeroSection />
-      
+       
       {/* Matérias/Notícias em Destaque */}
       <NewsSection />
-      
+       
       {/* Cursos em Destaque */}
-      <CoursesSection />
-      
+      <HomeLiteGuard
+        title="Assine para liberar os cursos completos"
+        description="Acesso imediato a mentorias, dossiês e aulas cinematográficas da Apocalypse Academy."
+      >
+        <CoursesSection />
+      </HomeLiteGuard>
+
+      <HomeLiteGuard
+        title="Documentários exclusivos para assinantes"
+        description="Produções no estilo Brasil Paralelo com imagens, trilhas e análises que não estão nas plataformas abertas."
+      >
+        <DocumentariesPreview />
+      </HomeLiteGuard>
+       
       {/* eBooks Exclusivos */}
-      <EbooksSection />
-      
+      <HomeLiteGuard
+        title="Biblioteca digital completa"
+        description="Baixe e-books, revistas e guias de preparação espiritual com descontos especiais para membros."
+      >
+        <EbooksSection />
+      </HomeLiteGuard>
+       
       {/* Rodapé padrão aprovado */}
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
@@ -76,4 +81,3 @@ const Home = () => {
 };
 
 export default Home;
-

@@ -1,0 +1,104 @@
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 4vw, 32px);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: clamp(24px, 4vw, 40px) clamp(20px, 6vw, 64px) 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.breadcrumb a {
+  color: inherit;
+}
+
+.heroBox {
+  margin: 0 clamp(20px, 6vw, 64px);
+  padding: clamp(28px, 5vw, 40px);
+  border-radius: 28px;
+  background: linear-gradient(140deg, rgba(18, 19, 30, 0.96), rgba(7, 8, 13, 0.96));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.heroMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.heroTitle {
+  font-size: clamp(2.2rem, 4.2vw, 3.2rem);
+  font-weight: 900;
+  letter-spacing: -0.45px;
+  color: #ffffff;
+}
+
+.heroExcerpt {
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+}
+
+.content {
+  margin: 0 clamp(20px, 6vw, 64px) clamp(64px, 10vw, 110px);
+  padding: clamp(32px, 6vw, 48px);
+  background: linear-gradient(180deg, rgba(18, 19, 30, 0.95), rgba(7, 8, 14, 0.95));
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.38);
+}
+
+.content p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.78);
+  margin-bottom: 18px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(225, 29, 46, 0.92);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+
+.backLink:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .heroBox {
+    margin: 0 20px;
+  }
+
+  .content {
+    margin: 0 20px 64px;
+  }
+}
+
+@media (max-width: 560px) {
+  .heroBox,
+  .content {
+    margin: 0 16px 48px;
+    padding: 24px;
+  }
+}
