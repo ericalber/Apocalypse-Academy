@@ -1,14 +1,9 @@
 import React from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
 import Link from 'next/link';
 import styles from '../styles/components/Footer.module.css';
 
 const Footer = () => {
-  const { language, setLanguage, t } = useLanguage();
-
-  const handleLanguageChange = (lang) => {
-    setLanguage(lang);
-  };
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className={styles.footer}>
@@ -16,63 +11,46 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerSection}>
             <h3>Apocalypse Academy</h3>
-            <p>{t('footer.tagline')}</p>
-            <div className={styles.languageSwitcher}>
-              <button 
-                className={`${styles.langButton} ${language === 'en' ? styles.active : ''}`}
-                onClick={() => handleLanguageChange('en')}
-              >
-                EN
-              </button>
-              <button 
-                className={`${styles.langButton} ${language === 'pt' ? styles.active : ''}`}
-                onClick={() => handleLanguageChange('pt')}
-              >
-                PT
-              </button>
-              <button 
-                className={`${styles.langButton} ${language === 'es' ? styles.active : ''}`}
-                onClick={() => handleLanguageChange('es')}
-              >
-                ES
-              </button>
-            </div>
+            <p>
+              Plataforma editorial e cinematográfica dedicada a conteúdos proféticos, produzida pela CROSS Global Entertainment.
+              Estratégia, pesquisa e narrativa convergindo para preparar uma audiência global.
+            </p>
           </div>
-          
+
           <div className={styles.footerSection}>
-            <h3>{t('footer.quickLinks')}</h3>
+            <h3>Links Rápidos</h3>
             <ul>
-              <li><Link href="/">{t('navigation.home')}</Link></li>
-              <li><Link href="/documentarios">{t('navigation.documentaries')}</Link></li>
-              <li><Link href="/cursos">{t('navigation.courses')}</Link></li>
-              <li><Link href="/revistas">{t('navigation.magazines')}</Link></li>
-              <li><Link href="/ebooks">{t('navigation.ebooks')}</Link></li>
+              <li><Link href="/">Início</Link></li>
+              <li><Link href="/documentarios">Documentários</Link></li>
+              <li><Link href="/cursos">Cursos</Link></li>
+              <li><Link href="/revistas">Revistas</Link></li>
+              <li><Link href="/ebooks">eBooks</Link></li>
             </ul>
           </div>
-          
+
           <div className={styles.footerSection}>
-            <h3>{t('footer.resources')}</h3>
+            <h3>Recursos</h3>
             <ul>
-              <li><Link href="/devocionais">{t('navigation.devotionals')}</Link></li>
-              <li><Link href="/comunidade">{t('navigation.community')}</Link></li>
-              <li><Link href="/blog">{t('navigation.blog')}</Link></li>
-              <li><Link href="/sobre">{t('navigation.about')}</Link></li>
+              <li><Link href="/devocionais">Devocionais</Link></li>
+              <li><Link href="/comunidade">Comunidade</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
+              <li><Link href="/sobre">Sobre Nós</Link></li>
             </ul>
           </div>
-          
+
           <div className={styles.footerSection}>
-            <h3>{t('footer.legal')}</h3>
+            <h3>Suporte</h3>
             <ul>
-              <li><Link href="/termos">{t('footer.termsOfUse')}</Link></li>
-              <li><Link href="/privacidade">{t('footer.privacyPolicy')}</Link></li>
-              <li><Link href="/contato">{t('footer.contact')}</Link></li>
+              <li><Link href="/termos">Termos de Uso</Link></li>
+              <li><Link href="/privacidade">Política de Privacidade</Link></li>
+              <li><Link href="/contato">Contato Comercial</Link></li>
             </ul>
           </div>
         </div>
-        
+
         <div className={styles.footerBottom}>
-          <p>&copy; {new Date().getFullYear()} Apocalypse Academy. {t('footer.allRightsReserved')}</p>
-          <p className={styles.poweredBy}>{t('footer.poweredBy')}</p>
+          <p>&copy; {currentYear} Apocalypse Academy. Todos os direitos reservados.</p>
+          <p className={styles.poweredBy}>Desenvolvido por CROSS Global Entertainment.</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
+import PageHeader from '../../src/components/PageHeader';
 import styles from '../../src/styles/NewsArchive.module.css';
 import newsData from '../../src/app/data/news.json';
 
@@ -46,12 +47,10 @@ const NoticiasPage = () => {
   return (
     <Layout>
       <div className={styles.pageWrapper}>
-        <header className={styles.hero}>
-          <h1 className={styles.heroTitle}>Notícias</h1>
-          <p className={styles.heroSubtitle}>
-            Cobertura diária dos fatos que se conectam com as profecias bíblicas e impactam a igreja no Brasil e no mundo.
-          </p>
-        </header>
+        <PageHeader
+          title="Notícias"
+          subtitle="Cobertura diária dos fatos que se conectam com as profecias bíblicas e impactam a igreja no Brasil e no mundo."
+        />
 
         <div className={styles.layout}>
           <aside className={styles.sidebar}>

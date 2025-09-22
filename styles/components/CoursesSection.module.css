@@ -30,12 +30,12 @@
 }
 
 .sectionTitle {
-  font-family: 'Fruitella', 'Arial Black', sans-serif;
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
-  text-transform: uppercase;
-  letter-spacing: 0.22em;
+  font-size: clamp(2rem, 3.6vw, 2.8rem);
+  font-weight: 800;
   color: var(--color-text-primary);
   margin-bottom: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .sectionSubtitle {
@@ -177,15 +177,23 @@
 
 .stat {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.9rem;
-  color: var(--color-text-secondary);
+  flex-direction: column;
+  gap: 4px;
+  min-width: 90px;
 }
 
-.statIcon {
-  font-size: 1rem;
-  color: var(--color-primary);
+.statLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(224, 224, 224, 0.7);
+}
+
+.statValue {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
 }
 
 .cardFooter {

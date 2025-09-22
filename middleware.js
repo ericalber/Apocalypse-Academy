@@ -12,11 +12,5 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: [
-    '/dashboard/:path*',
-    '/cursos/:path*',
-    '/ebooks/:path*',
-    '/documentarios/:path*',
-    '/revistas/:path*'
-  ]
+  matcher: ['/dashboard/:path*']
 };

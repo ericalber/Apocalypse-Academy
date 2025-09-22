@@ -6,6 +6,11 @@
   overflow-x: hidden;
 }
 
+.container,
+.container * {
+  font-weight: 700;
+}
+
 /* Hero Carousel - MyFlix Style */
 .heroCarousel {
   position: relative;
@@ -999,4 +1004,3 @@
     font-size: 1.1rem;
   }
 }
-

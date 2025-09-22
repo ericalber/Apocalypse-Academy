@@ -78,8 +78,8 @@ const CoursesSection = () => {
     <section id="cursos" data-section="cursos" className={`${styles.coursesSection} teaser-section`}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2 className={`${styles.sectionTitle} section-title`}>
-            🎓 Cursos em Destaque
+          <h2 className={styles.sectionTitle}>
+            Cursos em Destaque
           </h2>
           <p className={styles.sectionSubtitle}>
             Aprofunde seu conhecimento com nossos cursos exclusivos sobre escatologia, geopolítica e preparação
@@ -120,16 +120,16 @@ const CoursesSection = () => {
                 
                 <div className={styles.courseStats}>
                   <div className={styles.stat}>
-                    <span className={styles.statIcon}>⭐</span>
+                    <span className={styles.statLabel}>Avaliação</span>
                     <span className={styles.statValue}>{course.rating}</span>
                   </div>
                   <div className={styles.stat}>
-                    <span className={styles.statIcon}>⏱️</span>
+                    <span className={styles.statLabel}>Duração</span>
                     <span className={styles.statValue}>{course.duration}</span>
                   </div>
                   <div className={styles.stat}>
-                    <span className={styles.statIcon}>📚</span>
-                    <span className={styles.statValue}>{course.lessons} aulas</span>
+                    <span className={styles.statLabel}>Aulas</span>
+                    <span className={styles.statValue}>{course.lessons}</span>
                   </div>
                 </div>
                 
@@ -166,4 +166,3 @@ const CoursesSection = () => {
 };
 
 export default CoursesSection;
-

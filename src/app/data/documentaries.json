@@ -25,5 +25,59 @@
     "duration": "1h 30min",
     "rating": "4.7",
     "category": "Tecnologia"
+  },
+  {
+    "slug": "sinais-do-fim-relato",
+    "title": "Sinais do Fim: Relatório Secreto",
+    "description": "Um mergulho em evidências ocultas que conectam governos, pandemias e profecias bíblicas.",
+    "coverImage": "/poster-documentario-2.png",
+    "duration": "1h 55min",
+    "rating": "4.8",
+    "category": "Profecia"
+  },
+  {
+    "slug": "matrix-oculta",
+    "title": "Matrix Oculta: Quem Comanda os Bastidores",
+    "description": "Ex-agentes e insiders revelam como conglomerados secretos controlam governos, mídia e economia global.",
+    "coverImage": "/images/doc1.jpg",
+    "duration": "2h 05min",
+    "rating": "4.9",
+    "category": "Conspiração"
+  },
+  {
+    "slug": "vigilancia-total",
+    "title": "Vigilância Total: Sua Vida em Dados",
+    "description": "O avanço da inteligência artificial e do 5G coloca o cidadão comum sob monitoramento permanente.",
+    "coverImage": "/images/doc2.jpg",
+    "duration": "1h 40min",
+    "rating": "4.7",
+    "category": "Tecnologia"
+  },
+  {
+    "slug": "guerra-da-informacao",
+    "title": "Guerra da Informação: Manipulando Massas",
+    "description": "Investigação exclusiva sobre como algoritmos e fake news pavimentam o terreno para o governo mundial.",
+    "coverImage": "/images/doc3.jpg",
+    "duration": "1h 32min",
+    "rating": "4.6",
+    "category": "Geopolítica"
+  },
+  {
+    "slug": "alianca-europa",
+    "title": "Aliança Europa: O Retorno da Besta",
+    "description": "Documentos confidenciais revelam tratados estratégicos que preparam a ressurreição de um império profético.",
+    "coverImage": "/poster-curso-3.png",
+    "duration": "1h 48min",
+    "rating": "4.8",
+    "category": "Profecia"
+  },
+  {
+    "slug": "armagedom-financeiro",
+    "title": "Armagedom Financeiro: A Crise Final",
+    "description": "Economistas e analistas proféticos apontam para o colapso programado do sistema financeiro internacional.",
+    "coverImage": "/poster-curso-4.png",
+    "duration": "1h 37min",
+    "rating": "4.7",
+    "category": "Economia"
   }
 ]

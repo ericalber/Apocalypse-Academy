@@ -18,7 +18,7 @@
   z-index: 1;
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 36px 0 24px;
 }
 
 .sectionHeader {
@@ -29,9 +29,9 @@
 }
 
 .sectionTitle {
-  font-size: clamp(2.2rem, 3vw, 2.8rem);
-  font-family: 'Fruitella', 'Arial Black', sans-serif;
-  letter-spacing: 0.18em;
+  font-size: clamp(1.9rem, 3vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--color-text-primary);
 }

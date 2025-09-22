@@ -10,7 +10,8 @@ const HomeLiteGuard = ({
   ctaLabel = 'Assine para acessar',
   ctaHref = '/assinar',
   secondaryLabel = 'Já sou assinante',
-  secondaryHref = '/entrar'
+  secondaryHref = '/entrar',
+  alignment = 'left'
 }) => {
   const router = useRouter();
 
@@ -18,13 +19,21 @@ const HomeLiteGuard = ({
     router.push(ctaHref);
   };
 
+  const overlayClassName = alignment === 'center'
+    ? `${styles.overlay} ${styles.overlayCenter}`
+    : styles.overlay;
+
+  const contentClassName = alignment === 'center'
+    ? `${styles.overlayContent} ${styles.overlayContentCenter}`
+    : styles.overlayContent;
+
   return (
     <div className={styles.guardSection} onClick={handleWrapperClick} role="presentation">
       <div className={styles.dimmedContent} aria-hidden="true">
         {children}
       </div>
-      <div className={styles.overlay} aria-hidden="false">
-        <div className={styles.overlayContent} onClick={(event) => event.stopPropagation()} role="group">
+      <div className={overlayClassName} aria-hidden="false">
+        <div className={contentClassName} onClick={(event) => event.stopPropagation()} role="group">
           <strong className={styles.title}>{title}</strong>
           <p className={styles.description}>{description}</p>
           <div className={styles.buttonRow}>

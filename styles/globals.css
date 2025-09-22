@@ -1,5 +1,4 @@
-/* Importar Fontes Premium */
-@import url('./fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 /* Reset e estilos base */
 * {
@@ -16,8 +15,8 @@
   --color-surface-border: rgba(229, 9, 20, 0.2);
   --color-primary: #e50914;
   --color-primary-hover: #ff1f3d;
-  --color-text-primary: #f5f7fa;
-  --color-text-secondary: #c1c6d0;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #b0b5c3;
   --color-text-muted: #7b7f8c;
   --color-accent: #b20710;
   --color-gradient: linear-gradient(135deg, #e50914 0%, #b20710 55%, #ff4d0d 100%);
@@ -30,15 +29,24 @@
 
 
 html, body {
-  font-family: 'Robusto', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: radial-gradient(circle at top left, rgba(229, 9, 20, 0.12), transparent 55%),
-    radial-gradient(circle at bottom right, rgba(255, 79, 13, 0.08), transparent 60%),
-    var(--color-background);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--color-background);
   color: var(--color-text-primary);
   overflow-x: hidden;
   scroll-behavior: smooth;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+p,
+li,
+span,
+label {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 600;
 }
 
 /* Grid Mestre Responsivo */
@@ -84,74 +92,39 @@ a:active {
 }
 
 /* Links específicos para navegação */
-.nav-link {
-  color: var(--color-text-primary) !important;
-  font-family: 'Ezra', 'Arial', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.nav-link:hover {
-  color: var(--color-primary) !important;
-}
-
-.nav-link:visited {
-  color: var(--color-text-primary) !important;
-}
-
-/* Links de ação/CTA */
-.cta-link {
-  color: var(--color-primary) !important;
-  font-family: 'Ezra', 'Arial', sans-serif;
-  font-weight: 700;
-}
-
-.cta-link:hover {
-  color: var(--color-primary-hover) !important;
-}
-
 button {
   cursor: pointer;
-  font-family: 'Ezra', 'Arial', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
 }
 
 /* Tipografia Hierárquica */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 700;
   color: var(--color-text-primary);
   margin-bottom: 1rem;
 }
 
 h1 {
-  font-family: 'Fruitella', 'Arial Black', sans-serif;
-  font-size: 4rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  font-size: clamp(2.75rem, 4vw, 3.5rem);
+  line-height: 1.1;
 }
 
 h2 {
-  font-family: 'Albercio', 'Arial Narrow', sans-serif;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: clamp(1.8rem, 3vw, 2.25rem);
+  font-weight: 700;
 }
 
 h3 {
-  font-family: 'Robusto', 'Arial', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-size: clamp(1.4rem, 2.2vw, 1.6rem);
+  font-weight: 600;
 }
 
 h4 {
-  font-family: 'Robusto', 'Arial', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 600;
 }
 
 /* Efeito de texto cinematográfico */

@@ -23,6 +23,12 @@
   cursor: pointer;
 }
 
+.overlayCenter {
+  align-items: center;
+  justify-content: center;
+  padding: clamp(32px, 6vw, 48px);
+}
+
 .overlay::before {
   content: '';
   position: absolute;
@@ -46,6 +52,12 @@
   pointer-events: auto;
 }
 
+.overlayContentCenter {
+  align-items: center;
+  text-align: center;
+  max-width: 440px;
+}
+
 .title {
   font-size: clamp(1.25rem, 2vw, 1.5rem);
   font-weight: 700;
@@ -64,6 +76,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.overlayContentCenter .buttonRow {
+  justify-content: center;
 }
 
 .primaryButton,

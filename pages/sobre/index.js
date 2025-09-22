@@ -1,20 +1,16 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import styles from '../../styles/Sobre.module.css';
 import Link from 'next/link';
+import Layout from '../../components/Layout';
+import PageHeader from '../../src/components/PageHeader';
+import styles from '../../styles/Sobre.module.css';
 
 export default function Sobre() {
   return (
     <Layout title="Sobre a Missão | Apocalypse Academy">
-      <div className={styles.heroSection}>
-        <div className={styles.overlay}></div>
-        <div className={styles.heroContent}>
-          <h1 className={`${styles.title} stone-text`}>SOBRE A MISSÃO</h1>
-          <p className={styles.description}>
-            Conheça nossa visão, propósito e a missão por trás da Apocalypse Academy.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Sobre a Missão"
+        subtitle="Conheça nossa visão, propósito e valores na preparação de uma geração vigilante para os últimos tempos."
+      />
       
       <section className={styles.missionSection}>
         <div className={styles.container}>
@@ -27,7 +23,7 @@ export default function Sobre() {
               Em um mundo onde a verdade é cada vez mais distorcida e suprimida, nos comprometemos a fornecer conteúdo autêntico, baseado em pesquisa séria e análise profunda das profecias bíblicas em relação aos acontecimentos atuais. Não somos movidos por sensacionalismo, mas pelo compromisso com a verdade, por mais desconfortável que ela possa ser.
             </p>
             <div className={styles.missionQuote}>
-              <p>"Quando o sistema falhar, aqui ainda restará verdade."</p>
+              <p>&ldquo;Quando o sistema falhar, aqui ainda restará verdade.&rdquo;</p>
             </div>
           </div>
         </div>
@@ -89,64 +85,52 @@ export default function Sobre() {
         </div>
       </section>
       
-      <section className={styles.contentSection}>
+      <section className={styles.institutionalSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>NOSSO CONTEÚDO</h2>
-          
-          <div className={styles.contentGrid}>
-            <div className={styles.contentCard}>
-              <h3 className={styles.contentTitle}>Documentários</h3>
-              <p className={styles.contentDescription}>
-                Produções cinematográficas em alta definição (4K/6K) que investigam temas proféticos, geopolíticos e escatológicos com profundidade e rigor.
+          <h2 className={styles.sectionTitle}>INSTITUCIONAL</h2>
+          <div className={styles.institutionalGrid}>
+            <div className={styles.institutionalCard}>
+              <h3 className={styles.institutionalTitle}>Quem Somos</h3>
+              <p className={styles.institutionalText}>
+                Somos uma unidade editorial e cinematográfica conectada à CROSS Global Entertainment, formada por pesquisadores, teólogos, roteiristas e compositores dedicados a produzir narrativas proféticas com rigor e impacto emocional.
               </p>
-              <Link href="/documentarios" className={styles.contentLink}>
-                Ver Documentários
-              </Link>
+              <div className={styles.devocionalHighlight}>
+                <div className={styles.devocionalBadge}>Devocionais</div>
+                <p className={styles.devocionalCopy}>
+                  Playlist semanal com meditações, trilhas originais e comentários proféticos produzidos em parceria com o estúdio CROSS Sound Lab.
+                </p>
+                <Link href="/devocionais/spotify" className={styles.spotifyButton}>
+                  <span className={styles.spotifyIcon}>♫</span>
+                  Ouvir no Spotify
+                </Link>
+              </div>
             </div>
-            
-            <div className={styles.contentCard}>
-              <h3 className={styles.contentTitle}>Cursos</h3>
-              <p className={styles.contentDescription}>
-                Programas educacionais estruturados que oferecem conhecimento aprofundado sobre escatologia, profecias bíblicas e sua aplicação nos dias atuais.
+            <div className={styles.institutionalCard}>
+              <h3 className={styles.institutionalTitle}>Como Atuamos</h3>
+              <p className={styles.institutionalText}>
+                Produzimos conteúdo audiovisual, estudos guiados e encontros formativos, sempre com curadoria rigorosa e linguagem acessível para toda a igreja.
               </p>
-              <Link href="/cursos" className={styles.contentLink}>
-                Ver Cursos
-              </Link>
             </div>
-            
-            <div className={styles.contentCard}>
-              <h3 className={styles.contentTitle}>Revistas</h3>
-              <p className={styles.contentDescription}>
-                Publicações periódicas com análises detalhadas sobre eventos globais e sua relação com as profecias bíblicas.
+            <div className={styles.institutionalCard}>
+              <h3 className={styles.institutionalTitle}>Governança</h3>
+              <p className={styles.institutionalText}>
+                Mantemos processos de revisão doutrinária, compliance financeiro e prestação de contas periódica aos mantenedores e parceiros ministeriais.
               </p>
-              <Link href="/revistas" className={styles.contentLink}>
-                Ver Revistas
-              </Link>
-            </div>
-            
-            <div className={styles.contentCard}>
-              <h3 className={styles.contentTitle}>Devocionais</h3>
-              <p className={styles.contentDescription}>
-                Reflexões espirituais em formato de áudio para fortalecer sua fé e preparação para os tempos finais.
-              </p>
-              <Link href="/devocionais" className={styles.contentLink}>
-                Ver Devocionais
-              </Link>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className={styles.ctaSection}>
         <div className={styles.container}>
           <div className={styles.ctaContent}>
-            <h2 className={`${styles.ctaTitle} stone-text`}>JUNTE-SE À NOSSA MISSÃO</h2>
+            <h2 className={styles.ctaTitle}>Participe da Comunidade</h2>
             <p className={styles.ctaDescription}>
-              Faça parte da Apocalypse Academy e tenha acesso a conteúdo exclusivo que o preparará para os tempos que estão por vir.
+              Receba atualizações sobre novos conteúdos, mentorias e encontros especiais da Apocalypse Academy.
             </p>
-            <Link href="/auth/register" className={styles.ctaButton}>
-              COMEÇAR AGORA
-            </Link>
+            <a href="mailto:contato@apocalypseacademy.com" className={styles.ctaButton}>
+              Falar com a equipe
+            </a>
           </div>
         </div>
       </section>

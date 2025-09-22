@@ -23,8 +23,8 @@ const NewsSection = () => {
     <section id="noticias" data-section="noticias" className={styles.newsSection}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2 className={`${styles.sectionTitle} section-title`}>
-            📰 Notícias
+          <h2 className={styles.sectionTitle}>
+            Notícias
           </h2>
           <p className={styles.sectionSubtitle}>
             Análises atuais dos eventos que se alinham com as profecias bíblicas

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "edicao-grande-reset",
+    "title": "O Grande Reset",
+    "coverImage": "/poster-documentario-1.png",
+    "release": "Maio 2025"
+  },
+  {
+    "slug": "edicao-babilonia-digital",
+    "title": "Babilônia Digital",
+    "coverImage": "/poster-documentario-2.png",
+    "release": "Abril 2025"
+  },
+  {
+    "slug": "edicao-sinais-tempos",
+    "title": "Sinais dos Tempos",
+    "coverImage": "/poster-documentario-3.png",
+    "release": "Março 2025"
+  },
+  {
+    "slug": "edicao-transhumanismo",
+    "title": "Transhumanismo e Fé",
+    "coverImage": "/poster-curso-2.png",
+    "release": "Janeiro 2025"
+  },
+  {
+    "slug": "edicao-economia-apocalipse",
+    "title": "Economia do Apocalipse",
+    "coverImage": "/poster-curso-3.png",
+    "release": "Dez 2024"
+  },
+  {
+    "slug": "edicao-profecias-paz",
+    "title": "Profecias de Paz e Guerra",
+    "coverImage": "/poster-curso-4.png",
+    "release": "Nov 2024"
+  }
+]

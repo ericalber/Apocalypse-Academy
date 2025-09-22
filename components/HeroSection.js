@@ -5,29 +5,29 @@ import styles from '../styles/components/HeroSection.module.css';
 const heroSlides = [
   {
     id: 1,
-    title: 'A Última Verdade Antes do Fim',
-    subtitle: 'Quando o sistema falhar, restará a comunidade que discerne os sinais. Assine para assistir aos dossiês completos.',
-    backgroundImage: '/poster-documentario-1.png',
-    category: 'Documentário Exclusivo',
-    duration: '2h15',
+    title: 'DOSSIÊ SIGILOSO: O Plano para Controlar o Mundo',
+    subtitle: 'Investigação cinematográfica revela documentos vazados e conexões ocultas entre Big Tech, governos e elites financeiras.',
+    backgroundImage: '/images/hero/slide-1.jpg',
+    category: 'Lançamento Exclusivo',
+    duration: 'Estreia • 1h58',
     rating: '4.9'
   },
   {
     id: 2,
-    title: 'Preparação para os Tempos Finais',
-    subtitle: 'Orientações espirituais e práticas para proteger sua família diante dos dias mais desafiadores.',
-    backgroundImage: '/poster-curso-1.png',
-    category: 'Guia Completo',
-    duration: '120 páginas',
+    title: 'ARMAGEDOM FINANCEIRO: O Relatório Proibido de 2025',
+    subtitle: 'Economistas infiltrados denunciam o cronograma que prepara o colapso fabricado do sistema global.',
+    backgroundImage: '/images/hero/slide-2.jpg',
+    category: 'Dossiê Classificado',
+    duration: 'Breaking News • 1h42',
     rating: '5.0'
   },
   {
     id: 3,
-    title: 'Decifrando os Sinais dos Tempos',
-    subtitle: 'Identifique os eventos proféticos que já estão em andamento e saiba como responder com fé.',
-    backgroundImage: '/poster-geopolitica.png',
-    category: 'Curso Premium',
-    duration: '8 módulos',
+    title: 'SINAIS NO CÉU: O Relógio Profético Acelera',
+    subtitle: 'Análise visual em 8K mostra alinhamentos astronômicos e eventos geopolíticos cumprindo profecias milenares.',
+    backgroundImage: '/images/hero/slide-3.jpg',
+    category: 'Especial Cinematográfico',
+    duration: 'Edição Prime • 1h36',
     rating: '4.8'
   }
 ];
@@ -75,7 +75,6 @@ const HeroSection = () => {
       {/* Conteúdo principal */}
       <div className={`${styles.heroContent} hero-content`}>
         <div className={`${styles.heroContainer} hero-overlay`}>
-          {/* Informações do conteúdo */}
           <div className={`${styles.heroInfo} hero-overlay`}>
             <div className={styles.heroMeta}>
               <span className={styles.heroCategory}>{currentHero.category}</span>
@@ -91,8 +90,8 @@ const HeroSection = () => {
             <h1 className={`${styles.heroTitle} hero-title`}>{currentHero.title}</h1>
             <p className={`${styles.heroSubtitle} hero-subtitle`}>{currentHero.subtitle}</p>
 
-            {/* Botão de ação único */}
             <div className={styles.heroActions}>
+              <span className={styles.heroTagline}>Streaming exclusivo</span>
               <Link
                 href="/assinar"
                 className={styles.subscribeButton}

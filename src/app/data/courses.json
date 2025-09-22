@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "escatologia-biblica-avancada",
+    "title": "Escatologia Bíblica Avançada",
+    "image": "/poster-escatologia.png",
+    "duration": "36h",
+    "lessons": 24
+  },
+  {
+    "slug": "preparacao-tempos-finais",
+    "title": "Preparação para os Tempos Finais",
+    "image": "/poster-curso-1.png",
+    "duration": "18h",
+    "lessons": 16
+  },
+  {
+    "slug": "decifrando-sinais-tempos",
+    "title": "Decifrando os Sinais dos Tempos",
+    "image": "/poster-curso-2.png",
+    "duration": "14h",
+    "lessons": 12
+  },
+  {
+    "slug": "geopolitica-profecia",
+    "title": "Geopolítica Profética",
+    "image": "/poster-geopolitica.png",
+    "duration": "20h",
+    "lessons": 18
+  },
+  {
+    "slug": "guerra-cultural",
+    "title": "Guerra Cultural e Discernimento",
+    "image": "/poster-curso-3.png",
+    "duration": "12h",
+    "lessons": 10
+  },
+  {
+    "slug": "profecias-daniel",
+    "title": "Profecias de Daniel",
+    "image": "/poster-curso-4.png",
+    "duration": "15h",
+    "lessons": 14
+  },
+  {
+    "slug": "armas-espirituais",
+    "title": "Armas Espirituais do Remanescente",
+    "image": "/poster-guerra-espiritual.png",
+    "duration": "10h",
+    "lessons": 9
+  },
+  {
+    "slug": "vigilia-profetica",
+    "title": "Vigília Profética",
+    "image": "/poster-template.png",
+    "duration": "8h",
+    "lessons": 7
+  }
+]

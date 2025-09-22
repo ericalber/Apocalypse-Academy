@@ -1,15 +1,21 @@
+.cardLink {
+  display: block;
+  text-decoration: none;
+}
+
 .card {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
+  background: linear-gradient(150deg, rgba(18, 20, 30, 0.92), rgba(8, 9, 14, 0.92));
+  border-radius: 20px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  margin-bottom: 24px;
+  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: translateY(-6px);
+  box-shadow: 0 28px 56px rgba(225, 29, 46, 0.18);
 }
 
 .imageContainer {
@@ -20,33 +26,42 @@
 }
 
 .content {
-  padding: 20px;
+  padding: clamp(20px, 3vw, 28px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #f0f0f0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.35;
 }
 
 .content p {
-  color: #cccccc;
-  margin-bottom: 15px;
+  color: var(--color-text-secondary);
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.65;
+}
+
+.meta {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(224, 224, 224, 0.65);
 }
 
 .watchButton {
-  background-color: #ffd700;
-  color: #000000;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.watchButton:hover {
-  background-color: #ffcc00;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #e11d2e, #6b0d17);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }

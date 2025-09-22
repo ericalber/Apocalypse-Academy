@@ -1,11 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import NewsSection from '../components/NewsSection';
-import CoursesSection from '../components/CoursesSection';
-import EbooksSection from '../components/EbooksSection';
 import HomeLiteGuard from '../src/components/HomeLiteGuard';
 import DocumentariesPreview from '../src/components/DocumentariesPreview';
+import CoursesMosaicPreview from '../src/components/CoursesMosaicPreview';
+import EbooksPreviewGrid from '../src/components/EbooksPreviewGrid';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
@@ -22,14 +23,24 @@ const Home = () => {
       {/* Cursos em Destaque */}
       <HomeLiteGuard
         title="Assine para liberar os cursos completos"
-        description="Acesso imediato a mentorias, dossiês e aulas cinematográficas da Apocalypse Academy."
+        description="Catálogo cinematográfico com mentorias, exercícios e certificados exclusivos para membros."
+        ctaHref="/assinar"
+        ctaLabel="Assine para acessar"
+        secondaryHref="/entrar"
+        secondaryLabel="Já sou assinante"
+        alignment="center"
       >
-        <CoursesSection />
+        <CoursesMosaicPreview />
       </HomeLiteGuard>
 
       <HomeLiteGuard
         title="Documentários exclusivos para assinantes"
-        description="Produções no estilo Brasil Paralelo com imagens, trilhas e análises que não estão nas plataformas abertas."
+        description="Os Arquitetos do Caos • Dossiê Proibido: O Nome da Besta • Vigilância Total — Sua Vida em Dados • Sinais do Fim: O Relógio Acelera"
+        ctaHref="/assinar"
+        ctaLabel="Assine para acessar"
+        secondaryHref="/entrar"
+        secondaryLabel="Já sou assinante"
+        alignment="center"
       >
         <DocumentariesPreview />
       </HomeLiteGuard>
@@ -37,9 +48,13 @@ const Home = () => {
       {/* eBooks Exclusivos */}
       <HomeLiteGuard
         title="Biblioteca digital completa"
-        description="Baixe e-books, revistas e guias de preparação espiritual com descontos especiais para membros."
+        description="Downloads ilimitados, atualizações mensais e materiais exclusivos para aprofundar sua jornada profética."
+        ctaHref="/assinar"
+        ctaLabel="Assine para acessar"
+        secondaryHref="/ebooks"
+        secondaryLabel="Conheça a biblioteca"
       >
-        <EbooksSection />
+        <EbooksPreviewGrid />
       </HomeLiteGuard>
        
       {/* Rodapé padrão aprovado */}
@@ -54,19 +69,19 @@ const Home = () => {
             <div className={styles.footerSection}>
               <h4>Links Rápidos</h4>
               <ul>
-                <li><a href="/documentarios">Documentários</a></li>
-                <li><a href="/cursos">Cursos</a></li>
-                <li><a href="/revistas">Revistas</a></li>
-                <li><a href="/ebooks">eBooks</a></li>
+                <li><Link href="/documentarios">Documentários</Link></li>
+                <li><Link href="/cursos">Cursos</Link></li>
+                <li><Link href="/revistas">Revistas</Link></li>
+                <li><Link href="/ebooks">eBooks</Link></li>
               </ul>
             </div>
             
             <div className={styles.footerSection}>
               <h4>Suporte</h4>
               <ul>
-                <li><a href="/contato">Contato</a></li>
-                <li><a href="/sobre">Sobre Nós</a></li>
-                <li><a href="/apoie">Apoie este Projeto</a></li>
+                <li><Link href="/contato">Contato</Link></li>
+                <li><Link href="/sobre">Sobre Nós</Link></li>
+                <li><Link href="/apoie">Apoie este Projeto</Link></li>
               </ul>
             </div>
           </div>

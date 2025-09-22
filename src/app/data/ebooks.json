@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "preparacao-ultimos-dias",
+    "title": "Preparação para os Últimos Dias",
+    "description": "Manual prático completo para preparação espiritual, mental e física diante dos eventos proféticos.",
+    "pages": 120,
+    "category": "Preparação",
+    "coverImage": "/images/ebooks/preparacao-ultimos-dias.jpg",
+    "isFree": false,
+    "memberPrice": "R$ 14,95",
+    "publicPrice": "R$ 29,90"
+  },
+  {
+    "slug": "decifrando-daniel-apocalipse",
+    "title": "Decifrando Daniel e Apocalipse",
+    "description": "Estudo profético avançado verso a verso dos livros proféticos.",
+    "pages": 95,
+    "category": "Profecia",
+    "coverImage": "/images/ebooks/daniel-apocalipse.jpg",
+    "isFree": false,
+    "memberPrice": "R$ 17,43",
+    "publicPrice": "R$ 24,90"
+  },
+  {
+    "slug": "sinais-tempos-checklist",
+    "title": "Sinais dos Tempos — Checklist",
+    "description": "Lista de verificação profética para identificar os sinais dos últimos tempos.",
+    "pages": 45,
+    "category": "Guia",
+    "coverImage": "/images/ebooks/sinais-tempos-checklist.jpg",
+    "isFree": true,
+    "downloadUrl": "#"
+  },
+  {
+    "slug": "geopolitica-ultimos-dias",
+    "title": "Geopolítica dos Últimos Dias",
+    "description": "Análise das nações e eventos mundiais no contexto profético.",
+    "pages": 88,
+    "category": "Geopolítica",
+    "coverImage": "/images/ebooks/geopolitica-ultimos-dias.jpg",
+    "isFree": false,
+    "memberPrice": "R$ 16,03",
+    "publicPrice": "R$ 22,90"
+  },
+  {
+    "slug": "arsenal-espiritual",
+    "title": "Arsenal Espiritual",
+    "description": "Ferramentas e estratégias para a guerra espiritual dos últimos tempos.",
+    "pages": 67,
+    "category": "Espiritual",
+    "coverImage": "/images/ebooks/arsenal-espiritual.jpg",
+    "isFree": true,
+    "downloadUrl": "#"
+  },
+  {
+    "slug": "cronologia-profetica",
+    "title": "Cronologia Profética",
+    "description": "Timeline completa dos eventos dos últimos tempos segundo as Escrituras.",
+    "pages": 78,
+    "category": "Cronologia",
+    "coverImage": "/images/ebooks/cronologia-profetica.jpg",
+    "isFree": false,
+    "memberPrice": "R$ 10,95",
+    "publicPrice": "R$ 21,90"
+  }
+]

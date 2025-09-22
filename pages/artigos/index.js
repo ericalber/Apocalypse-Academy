@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
+import PageHeader from '../../src/components/PageHeader';
 import styles from '../../src/styles/ArticlesArchive.module.css';
 import articles from '../../src/app/data/articles.json';
 
@@ -20,12 +21,10 @@ const ArtigosPage = () => {
   return (
     <Layout>
       <div className={styles.pageWrapper}>
-        <header className={styles.hero}>
-          <h1 className={styles.heroTitle}>Artigos &amp; Ensaios</h1>
-          <p className={styles.heroSubtitle}>
-            Um espaço para opinião e reflexão bíblica sobre geopolítica, cultura e discipulado em tempos proféticos.
-          </p>
-        </header>
+        <PageHeader
+          title="Artigos & Ensaios"
+          subtitle="Um espaço para opinião e reflexão bíblica sobre geopolítica, cultura e discipulado em tempos proféticos."
+        />
 
         <div className={styles.layout}>
           {articles.map((article) => (

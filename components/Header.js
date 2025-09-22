@@ -69,7 +69,6 @@ const Header = () => {
   const navigationItems = [
     { href: '/', label: 'Início' },
     { href: '/noticias', label: 'Notícias' },
-    { href: '/artigos', label: 'Artigos' },
     { href: '/revistas', label: 'Revistas' },
     { href: '/cursos', label: 'Cursos' },
     { href: '/documentarios', label: 'Documentários' },

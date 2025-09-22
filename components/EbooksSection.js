@@ -94,30 +94,32 @@ const EbooksSection = () => {
   ];
 
   const handleEbookClick = (ebook) => {
-    if (ebook.isFree && !isAuthenticated) {
-      // Para eBooks gratuitos, redirecionar para assinatura
-      return `/assinar?ebook=${ebook.slug}`;
-    } else if (!isAuthenticated) {
-      // Para eBooks pagos, ir para página de compra
+    if (ebook.isFree) {
       return `/ebooks/${ebook.slug}`;
     }
-    // Se autenticado, acessar diretamente
+
+    if (!isAuthenticated) {
+      const returnUrl = encodeURIComponent(`/ebooks/${ebook.slug}`);
+      return `/assinar?redirect=${returnUrl}`;
+    }
+
     return `/ebooks/${ebook.slug}`;
   };
 
   const getButtonText = (ebook) => {
     if (ebook.isFree) {
-      return isAuthenticated ? 'Baixar Grátis' : 'Assinar para Baixar';
+      return 'Baixar e-book gratuito';
     }
-    return isAuthenticated ? `Baixar por ${ebook.memberPrice}` : `Comprar por ${ebook.publicPrice}`;
+
+    return isAuthenticated ? `Baixar por ${ebook.memberPrice}` : 'Assinar para baixar';
   };
 
   return (
     <section id="ebooks" data-section="ebooks" className={`${styles.ebooksSection} teaser-section`}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2 className={`${styles.sectionTitle} section-title`}>
-            📚 eBooks Exclusivos
+          <h2 className={styles.sectionTitle}>
+            eBooks Exclusivos
           </h2>
           <p className={styles.sectionSubtitle}>
             Biblioteca digital com conteúdo aprofundado sobre os últimos tempos e preparação profética
@@ -128,7 +130,10 @@ const EbooksSection = () => {
         </div>
 
         <div className={`${styles.ebooksGrid} grid-3`}>
-          {featuredEbooks.map((ebook) => (
+          {featuredEbooks.map((ebook) => {
+            const coverImage = ebook.image || '/images/ebooks/placeholder.svg';
+
+            return (
             <div key={ebook.id} className={`${styles.ebookCard} card`}>
               <div className={styles.badgeStrip}>
                 {ebook.isNew && (
@@ -144,7 +149,7 @@ const EbooksSection = () => {
 
               <div className={`${styles.cardImage} card-media`}>
                 <img
-                  src={ebook.image}
+                  src={coverImage}
                   alt={ebook.title}
                   loading="lazy"
                 />
@@ -156,8 +161,8 @@ const EbooksSection = () => {
                 <p className={`${styles.cardDescription} card-excerpt`}>{ebook.description}</p>
 
                 <div className={styles.metaRow}>
-                  <span>📄 {ebook.pages} páginas</span>
-                  <span>• {ebook.category}</span>
+                  <span>{ebook.pages} páginas</span>
+                  <span>{ebook.category}</span>
                 </div>
 
                 <div className={`${styles.cardFooter} card-footer`}>
@@ -196,7 +201,7 @@ const EbooksSection = () => {
                 </div>
               </div>
             </div>
-          ))}
+          );})}
         </div>
         <div className={styles.sectionFooter}>
           <Link href="/ebooks" className={styles.viewAllButton}>
@@ -209,4 +214,3 @@ const EbooksSection = () => {
 };
 
 export default EbooksSection;
-

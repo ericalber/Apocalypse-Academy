@@ -29,10 +29,10 @@
 }
 
 .sectionTitle {
-  font-family: 'Fruitella', 'Arial Black', sans-serif;
-  font-size: clamp(2.2rem, 3vw, 2.9rem);
+  font-size: clamp(2rem, 3.2vw, 2.7rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.22em;
   color: var(--color-text-primary);
   margin-bottom: 18px;
 }
@@ -112,8 +112,9 @@
 
 .cardImage {
   position: relative;
-  height: 190px;
+  aspect-ratio: 2 / 3;
   overflow: hidden;
+  border-radius: 16px;
 }
 
 .cardImage img {
