@@ -6,6 +6,10 @@
   color: var(--color-text-primary);
 }
 
+.shellCompact {
+  grid-template-columns: 240px 1fr;
+}
+
 .sidebar {
   position: sticky;
   top: 0;
@@ -17,6 +21,11 @@
   border-right: 1px solid rgba(229, 9, 20, 0.2);
   min-height: 100vh;
   gap: 32px;
+}
+
+.shellCompact .sidebar {
+  padding: 28px 22px;
+  width: 240px;
 }
 
 .logoArea {
@@ -60,7 +69,6 @@
 .navItem {
   display: flex;
   align-items: center;
-  gap: 12px;
   padding: 12px 16px;
   border-radius: 12px;
   color: rgba(255, 255, 255, 0.62);
@@ -85,6 +93,23 @@
 
 .navIcon {
   font-size: 1.15rem;
+}
+
+.shellCompact .heading h1,
+.heading h1 {
+  font-size: clamp(1.6rem, 2.6vw, 2rem);
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.heading p {
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .sidebarFooter {
@@ -129,48 +154,65 @@
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  padding: 32px 48px 28px;
+  padding: 24px 32px;
   border-bottom: 1px solid rgba(229, 9, 20, 0.12);
   background: linear-gradient(120deg, rgba(12, 13, 22, 0.9), rgba(5, 6, 12, 0.85));
   backdrop-filter: blur(12px);
+  gap: 18px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
 }
 
 .heading h1 {
-  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
   margin: 0;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .heading p {
-  margin-top: 6px;
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 0.95rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .headerActions {
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: nowrap;
 }
 
 .searchBox {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
+  gap: 8px;
+  padding: 6px 10px;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .searchBox input {
   background: transparent;
   border: none;
   color: inherit;
-  font-size: 0.92rem;
-  width: 200px;
+  font-size: 0.78rem;
+  width: clamp(110px, 18vw, 160px);
+  min-width: 0;
 }
 
 .searchBox input:focus {
@@ -203,16 +245,16 @@
 .userBadge {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   background: radial-gradient(circle at top, rgba(229, 9, 20, 0.22), rgba(20, 21, 33, 0.9));
   border: 1px solid rgba(229, 9, 20, 0.28);
   border-radius: 16px;
-  padding: 10px 18px;
+  padding: 8px 14px;
 }
 
 .userAvatar {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -237,8 +279,8 @@
   border: 1px solid rgba(229, 9, 20, 0.45);
   color: #fff;
   border-radius: 999px;
-  padding: 6px 16px;
-  font-size: 0.78rem;
+  padding: 6px 14px;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   cursor: pointer;
@@ -303,6 +345,10 @@
 
 @media (max-width: 992px) {
   .shell {
+    grid-template-columns: 1fr;
+  }
+
+  .shellCompact {
     grid-template-columns: 1fr;
   }
 

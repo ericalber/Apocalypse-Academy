@@ -36,7 +36,7 @@ const CourseDashboard = () => {
 
   return (
     <MemberLayout
-      pageTitle="Trilhas e mentorias"
+      pageTitle="TRILHAS E MENTORIAS"
       pageSubtitle="Estudos cinematográficos com roteiros, exercícios e materiais complementares"
     >
       <section className={styles.pageIntro}>

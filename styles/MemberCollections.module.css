@@ -89,6 +89,29 @@
   gap: 24px;
 }
 
+.collectionGridDocumentaries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+  gap: 22px;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  justify-content: center;
+  min-height: 420px;
+}
+
+.magazinesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+  gap: 20px;
+}
+
+.booksGrid {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 200px));
+  gap: 18px;
+  justify-content: center;
+}
+
 .collectionCard {
   position: relative;
   display: flex;
@@ -100,10 +123,37 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
 
+.bookCardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.35s ease;
+}
+
+.bookCardLink:hover .bookCard {
+  transform: translateY(-4px);
+  box-shadow: 0 26px 60px rgba(229, 9, 20, 0.24);
+}
+
+.bookCard {
+  max-width: 200px;
+  margin: 0 auto;
+  background: linear-gradient(150deg, rgba(15, 16, 22, 0.92), rgba(6, 7, 12, 0.92));
+}
+
 .collectionMedia {
   position: relative;
   aspect-ratio: 2 / 3;
   overflow: hidden;
+}
+
+.collectionMediaMagazine {
+  aspect-ratio: 3 / 4;
+}
+
+.bookCard .collectionMedia {
+  aspect-ratio: 1 / 1.6;
+  background: rgba(5, 6, 12, 0.85);
 }
 
 .collectionMedia img {
@@ -111,6 +161,11 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
+}
+
+.bookCard .collectionMedia img {
+  object-fit: contain;
+  padding: 12px;
 }
 
 .collectionCard:hover .collectionMedia img {
@@ -124,9 +179,26 @@
   gap: 10px;
 }
 
+.bookDescription {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.72);
+  min-height: 42px;
+}
+
+.bookCard .collectionTitle {
+  font-size: 1rem;
+  min-height: 44px;
+}
+
+.bookCard .collectionFooter {
+  font-size: 0.72rem;
+}
+
 .collectionTitle {
   font-size: 1.05rem;
   line-height: 1.4;
+  font-weight: 700;
 }
 
 .collectionMeta {

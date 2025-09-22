@@ -28,7 +28,7 @@ const DocumentariesDashboard = () => {
 
   return (
     <MemberLayout
-      pageTitle="Documentários exclusivos"
+      pageTitle="DOCUMENTÁRIOS EXCLUSIVOS"
       pageSubtitle="Produções cinematográficas em 4K com narrativa investigativa e cronologia profética"
     >
       <section className={styles.pageIntro}>
@@ -78,7 +78,7 @@ const DocumentariesDashboard = () => {
         </Link>
       </section>
 
-      <section className={styles.collectionGrid}>
+      <section className={`${styles.collectionGridDocumentaries}`}>
         {list.map((doc) => (
           <article key={doc.slug} className={styles.collectionCard}>
             <div className={styles.collectionMedia}>

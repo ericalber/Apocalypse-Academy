@@ -12,8 +12,6 @@ const DashboardHome = () => {
   const continueWatching = courses.slice(0, 6);
   const trendingDocumentaries = documentaries.slice(0, 6);
   const cinematicCourses = courses.slice(0, 5);
-  const highlightedMagazines = magazines.slice(0, 3);
-  const highlightedEbooks = ebooks.slice(0, 3);
 
   const stats = useMemo(() => {
     const completedLessons = courses.reduce((acc, course) => acc + (course.lessons || 0), 0);
@@ -32,79 +30,84 @@ const DashboardHome = () => {
 
   const progressPresets = [84, 62, 47, 91, 58, 73];
 
+  const metrics = [
+    {
+      label: 'Horas de estudo',
+      value: `${stats.totalHours}h`,
+      detail: 'Catálogo ativo',
+      tag: '+14%'
+    },
+    {
+      label: 'Aulas disponíveis',
+      value: stats.completedLessons,
+      detail: '8 coleções',
+      tag: 'Atualizado'
+    },
+    {
+      label: 'Documentários',
+      value: stats.documentariesAvailable,
+      detail: '4K HDR',
+      tag: 'Semana'
+    },
+    {
+      label: 'Leituras premium',
+      value: stats.readingShelf,
+      detail: 'Biblioteca + revistas',
+      tag: 'Novo'
+    }
+  ];
+
   return (
     <MemberLayout
-      pageTitle="Painel Cinematográfico"
-      pageSubtitle="Continue sua jornada profética com conteúdos liberados para membros"
+      pageTitle="VISÃO GERAL"
+      pageSubtitle="SUA ÚLTIMA ACADEMIA ANTES DO FIM"
+      sidebarVariant="compact"
     >
-      <section className={styles.heroPanel}>
-        <div
-          className={styles.panelBackdrop}
-          style={{ backgroundImage: `url(${featuredDocumentary.coverImage})` }}
-        />
-        <div className={styles.panelOverlay} />
+      <div className={styles.introContainer}>
+        <section className={styles.heroPanel}>
+          <div
+            className={styles.panelBackdrop}
+            style={{ backgroundImage: `url(${featuredDocumentary.coverImage})` }}
+          />
+          <div className={styles.panelOverlay} />
 
-        <div className={styles.panelContent}>
-          <span className={styles.panelTag}>Lançamento Exclusivo</span>
-          <h2 className={styles.panelTitle}>{featuredDocumentary.title}</h2>
-          <p className={styles.panelDescription}>{featuredDocumentary.description}</p>
-          <div className={styles.panelMeta}>
-            <span>{featuredDocumentary.duration}</span>
-            <span>⭐ {featuredDocumentary.rating}</span>
-            <span>{featuredDocumentary.category}</span>
+          <div className={styles.panelContent}>
+            <span className={styles.panelTag}>Lançamento Exclusivo</span>
+            <h2 className={styles.panelTitle}>{featuredDocumentary.title}</h2>
+            <p className={styles.panelDescription}>{featuredDocumentary.description}</p>
+            <div className={styles.panelMeta}>
+              <span>{featuredDocumentary.duration}</span>
+              <span>⭐ {featuredDocumentary.rating}</span>
+              <span>{featuredDocumentary.category}</span>
+            </div>
+            <div className={styles.panelActions}>
+              <Link href={`/dashboard/documentarios?highlight=${featuredDocumentary.slug}`} className={styles.primaryAction}>
+                ▶ Assistir agora
+              </Link>
+              <Link href="/dashboard/documentarios" className={styles.secondaryAction}>
+                Explorar catálogo
+              </Link>
+            </div>
           </div>
-          <div className={styles.panelActions}>
-            <Link href={`/dashboard/documentarios?highlight=${featuredDocumentary.slug}`} className={styles.primaryAction}>
-              ▶ Assistir agora
-            </Link>
-            <Link href="/dashboard/documentarios" className={styles.secondaryAction}>
-              Explorar catálogo
-            </Link>
-          </div>
-        </div>
 
-        <div className={styles.panelPoster}>
-          <img src={featuredDocumentary.coverImage} alt={featuredDocumentary.title} />
-        </div>
-      </section>
-
-      <section className={styles.statsRow}>
-        <article className={styles.statCard}>
-          <span className={styles.statLabel}>Horas de estudo</span>
-          <strong className={styles.statNumber}>{stats.totalHours}h</strong>
-          <div className={styles.statDetail}>
-            <span>Catálogo ativo</span>
-            <span className={styles.trendChip}>▲ +14%</span>
+          <div className={styles.panelPoster}>
+            <img src={featuredDocumentary.coverImage} alt={featuredDocumentary.title} />
           </div>
-        </article>
+        </section>
 
-        <article className={styles.statCard}>
-          <span className={styles.statLabel}>Aulas disponíveis</span>
-          <strong className={styles.statNumber}>{stats.completedLessons}</strong>
-          <div className={styles.statDetail}>
-            <span>Divididas em 8 coleções</span>
-            <span>Nova trilha</span>
-          </div>
-        </article>
-
-        <article className={styles.statCard}>
-          <span className={styles.statLabel}>Documentários</span>
-          <strong className={styles.statNumber}>{stats.documentariesAvailable}</strong>
-          <div className={styles.statDetail}>
-            <span>Atualizados semanalmente</span>
-            <span>4K HDR</span>
-          </div>
-        </article>
-
-        <article className={styles.statCard}>
-          <span className={styles.statLabel}>Leituras premium</span>
-          <strong className={styles.statNumber}>{stats.readingShelf}</strong>
-          <div className={styles.statDetail}>
-            <span>Biblioteca e revistas</span>
-            <span>Novos PDFs</span>
-          </div>
-        </article>
-      </section>
+        <section className={styles.metricsRow}>
+          {metrics.map((metric) => (
+            <div key={metric.label} className={styles.metricCard}>
+              <span className={styles.metricLabel}>{metric.label}</span>
+              <strong className={styles.metricValue}>{metric.value}</strong>
+              <div className={styles.metricFooter}>
+                <span>{metric.detail}</span>
+                <span className={styles.metricTag}>{metric.tag}</span>
+              </div>
+            </div>
+          ))}
+        </section>
+      </div>
 
       <section>
         <div className={styles.sectionHeader}>
@@ -163,7 +166,7 @@ const DashboardHome = () => {
 
       <section>
         <div className={styles.sectionHeader}>
-          <h3 className={styles.sectionTitle}>Novos cursos cinematográficos</h3>
+          <h3 className={styles.sectionTitle}>Novos cursos</h3>
           <Link href="/dashboard/cursos" className={styles.sectionAction}>
             Todas as mentorias →
           </Link>
@@ -188,57 +191,7 @@ const DashboardHome = () => {
         </div>
       </section>
 
-      <section>
-        <div className={styles.sectionHeader}>
-          <h3 className={styles.sectionTitle}>Sua estante digital</h3>
-          <Link href="/dashboard/biblioteca" className={styles.sectionAction}>
-            Abrir biblioteca →
-          </Link>
-        </div>
-        <div className={styles.libraryRow}>
-          {highlightedMagazines.map((magazine) => (
-            <article key={magazine.slug} className={styles.libraryCard}>
-              <div className={styles.libraryHeader}>
-                <span className={styles.libraryIcon}>📰</span>
-                <div>
-                  <h4>{magazine.title}</h4>
-                  <span className={styles.libraryBody}>Edição {magazine.release}</span>
-                </div>
-              </div>
-              <div className={styles.libraryBody}>
-                Relatórios especiais com infográficos, timelines proféticas e análises aprofundadas.
-              </div>
-              <div className={styles.libraryFooter}>
-                <Link href={`/dashboard/revistas?issue=${magazine.slug}`} className={styles.quickLink}>
-                  Ler agora
-                </Link>
-                <span>PDF 4K</span>
-              </div>
-            </article>
-          ))}
-
-          {highlightedEbooks.map((book) => (
-            <article key={book.slug} className={styles.libraryCard}>
-              <div className={styles.libraryHeader}>
-                <span className={styles.libraryIcon}>📚</span>
-                <div>
-                  <h4>{book.title}</h4>
-                  <span className={styles.libraryBody}>{book.category}</span>
-                </div>
-              </div>
-              <div className={styles.libraryBody}>
-                {book.description}
-              </div>
-              <div className={styles.libraryFooter}>
-                <Link href={`/dashboard/biblioteca?ebook=${book.slug}`} className={styles.quickLink}>
-                  Baixar
-                </Link>
-                <span>{book.pages} páginas</span>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
+      {/* Estante digital removida - livros permanecem na página Biblioteca */}
     </MemberLayout>
   );
 };

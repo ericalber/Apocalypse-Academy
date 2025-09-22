@@ -10,13 +10,6 @@
   opacity: 0.55;
 }
 
-.revealedContent {
-  pointer-events: auto;
-  filter: none;
-  opacity: 1;
-  transition: filter 0.3s ease, opacity 0.3s ease;
-}
-
 .overlay {
   position: absolute;
   inset: 0;

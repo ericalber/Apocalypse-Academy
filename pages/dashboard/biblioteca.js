@@ -34,7 +34,7 @@ const LibraryDashboard = () => {
 
   return (
     <MemberLayout
-      pageTitle="Biblioteca cinematográfica"
+      pageTitle="BIBLIOTECA CINEMATOGRÁFICA"
       pageSubtitle="PDFs imersivos, relatórios confidenciais e materiais de estudo com arte premium"
     >
       <section className={styles.pageIntro}>
@@ -88,25 +88,27 @@ const LibraryDashboard = () => {
         </Link>
       </section>
 
-      <section className={`${styles.collectionGrid} ${styles.gridWide}`}>
+      <section className={`${styles.collectionGrid} ${styles.booksGrid}`}>
         {filtered.map((ebook) => (
-          <article key={ebook.slug} className={styles.collectionCard}>
-            <div className={styles.collectionMedia}>
-              <img src={ebook.coverImage} alt={ebook.title} />
-              <span className={styles.collectionMeta}>{ebook.category}</span>
-            </div>
-            <div className={styles.collectionBody}>
-              <h3 className={styles.collectionTitle}>{ebook.title}</h3>
-              <p className={styles.introText}>{ebook.description}</p>
-              <div className={styles.collectionFooter}>
-                <span>{ebook.pages} páginas</span>
-                <span>{ebook.isFree ? 'Download livre' : ebook.memberPrice}</span>
+          <Link
+            key={ebook.slug}
+            href={`/dashboard/biblioteca/${ebook.slug}`}
+            className={styles.bookCardLink}
+          >
+            <article className={`${styles.collectionCard} ${styles.bookCard}`}>
+              <div className={styles.collectionMedia}>
+                <img src={ebook.coverImage} alt={ebook.title} />
               </div>
-              <Link href={`/dashboard/biblioteca?ebook=${ebook.slug}`} className={styles.playButton}>
-                {ebook.isFree ? 'Baixar agora' : 'Adicionar à estante'}
-              </Link>
-            </div>
-          </article>
+              <div className={styles.collectionBody}>
+                <h3 className={styles.collectionTitle}>{ebook.title}</h3>
+                <p className={styles.bookDescription}>{ebook.description}</p>
+                <div className={styles.collectionFooter}>
+                  <span>{ebook.pages} págs.</span>
+                  <span>{ebook.isFree ? 'Livre' : ebook.memberPrice}</span>
+                </div>
+              </div>
+            </article>
+          </Link>
         ))}
       </section>
     </MemberLayout>
