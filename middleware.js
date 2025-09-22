@@ -8,6 +8,13 @@ const redirectToAssinar = (request) => {
 };
 
 export function middleware(request) {
+  const bypassPaywall = process.env.NEXT_PUBLIC_BYPASS_PAYWALL === 'true';
+  const hasAuthCookie = request.cookies.get('auth_token');
+
+  if (bypassPaywall || (hasAuthCookie && hasAuthCookie.value)) {
+    return NextResponse.next();
+  }
+
   return redirectToAssinar(request);
 }
 

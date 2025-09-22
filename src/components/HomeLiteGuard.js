@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useAuth } from '../../contexts/AuthContext';
 import styles from '../styles/HomeLiteGuard.module.css';
 
 const HomeLiteGuard = ({
@@ -14,9 +15,27 @@ const HomeLiteGuard = ({
   alignment = 'left'
 }) => {
   const router = useRouter();
+  const { user, loading } = useAuth();
+
+  const hasAccess = useMemo(() => {
+    if (!user) {
+      return false;
+    }
+
+    const subscriptionStatus = user?.subscription?.status?.toLowerCase();
+    if (!subscriptionStatus) {
+      return true;
+    }
+
+    return ['active', 'trial', 'lifetime', 'complimentary'].includes(subscriptionStatus);
+  }, [user]);
+
+  const showOverlay = !loading && !hasAccess;
 
   const handleWrapperClick = () => {
-    router.push(ctaHref);
+    if (showOverlay) {
+      router.push(ctaHref);
+    }
   };
 
   const overlayClassName = alignment === 'center'
@@ -28,24 +47,37 @@ const HomeLiteGuard = ({
     : styles.overlayContent;
 
   return (
-    <div className={styles.guardSection} onClick={handleWrapperClick} role="presentation">
-      <div className={styles.dimmedContent} aria-hidden="true">
+    <div
+      className={styles.guardSection}
+      onClick={showOverlay ? handleWrapperClick : undefined}
+      role="presentation"
+    >
+      <div
+        className={showOverlay ? styles.dimmedContent : styles.revealedContent}
+        aria-hidden={showOverlay}
+      >
         {children}
       </div>
-      <div className={overlayClassName} aria-hidden="false">
-        <div className={contentClassName} onClick={(event) => event.stopPropagation()} role="group">
-          <strong className={styles.title}>{title}</strong>
-          <p className={styles.description}>{description}</p>
-          <div className={styles.buttonRow}>
-            <Link href={ctaHref} className={styles.primaryButton}>
-              {ctaLabel}
-            </Link>
-            <Link href={secondaryHref} className={styles.secondaryButton}>
-              {secondaryLabel}
-            </Link>
+      {showOverlay && (
+        <div className={overlayClassName} aria-hidden="false">
+          <div
+            className={contentClassName}
+            onClick={(event) => event.stopPropagation()}
+            role="group"
+          >
+            <strong className={styles.title}>{title}</strong>
+            <p className={styles.description}>{description}</p>
+            <div className={styles.buttonRow}>
+              <Link href={ctaHref} className={styles.primaryButton}>
+                {ctaLabel}
+              </Link>
+              <Link href={secondaryHref} className={styles.secondaryButton}>
+                {secondaryLabel}
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

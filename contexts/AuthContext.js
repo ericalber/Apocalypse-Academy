@@ -50,10 +50,14 @@ export const AuthProvider = ({ children }) => {
         // Salvar dados no localStorage
         localStorage.setItem('auth_token', result.token);
         localStorage.setItem('user_data', JSON.stringify(result.user));
-        
+
+        if (typeof window !== 'undefined') {
+          document.cookie = `auth_token=${result.token}; path=/; max-age=${24 * 60 * 60}; SameSite=Lax`;
+        }
+
         // Atualizar estado
         setUser(result.user);
-        
+
         return {
           success: true,
           message: result.message
@@ -86,10 +90,14 @@ export const AuthProvider = ({ children }) => {
         // Salvar dados no localStorage
         localStorage.setItem('auth_token', result.token);
         localStorage.setItem('user_data', JSON.stringify(result.user));
-        
+
+        if (typeof window !== 'undefined') {
+          document.cookie = `auth_token=${result.token}; path=/; max-age=${24 * 60 * 60}; SameSite=Lax`;
+        }
+
         // Atualizar estado
         setUser(result.user);
-        
+
         return {
           success: true,
           message: result.message
@@ -115,6 +123,9 @@ export const AuthProvider = ({ children }) => {
   const logout = () => {
     localStorage.removeItem('auth_token');
     localStorage.removeItem('user_data');
+    if (typeof window !== 'undefined') {
+      document.cookie = 'auth_token=; path=/; max-age=0; SameSite=Lax';
+    }
     setUser(null);
   };
 
@@ -328,4 +339,3 @@ export const useAuth = () => {
 };
 
 export default AuthContext;
-
